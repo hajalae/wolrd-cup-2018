@@ -1,0 +1,26 @@
+{
+  "name": "wolrd-cup-2018",
+  "version": "1.0.0",
+  "description": "Site sur la coupe du monde, pour le cours de creation de site web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hajalae/wolrd-cup-2018.git"
+  },
+  "keywords": [
+    "World-cup",
+    "Football"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hajalae/wolrd-cup-2018/issues"
+  },
+  "homepage": "https://github.com/hajalae/wolrd-cup-2018#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
