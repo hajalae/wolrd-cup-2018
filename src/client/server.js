@@ -3,8 +3,8 @@ var express = require('express');
 var app = express();
 
 app.get('/', function(req, res) {
-    res.setHeader('Content-Type', 'text/plain');
-    res.send('Vous êtes à l\'accueil');
+    res.setHeader('Content-Type', 'text/html');
+    res.render('home.ejs');
 })
 .get('/home', function(req, res){
     res.setHeader('Content-Type', 'text/html');
@@ -26,6 +26,7 @@ app.get('/', function(req, res) {
     res.setHeader('Content-Type', 'text/html');
     res.send('<h1>Pronostic</h1>');
 })
+.use("/public", express.static(__dirname + '/public'))
 .use(function(req, res, next){
     res.setHeader('Content-Type', 'text/plain');
     res.status(404).send('Page introuvable !');
