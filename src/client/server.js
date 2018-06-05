@@ -41,6 +41,11 @@ app.get('/', function(req, res) {
     res.setHeader('Content-Type', 'text/html');
     res.render('pronostics.ejs');
 })
+.get("/contact",function(req,res){
+    res.setHeader('Content-Type', 'text/html');
+    res.render("contact.ejs");
+    
+})
 .use("/public", express.static(__dirname + '/public'))
 .use(function(req, res, next){
     res.setHeader('Content-Type', 'text/html');
