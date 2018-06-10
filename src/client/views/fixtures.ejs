@@ -26,9 +26,19 @@
             </div>
         </nav>
 
+        <table class="table">
         <% for(var i =0 ; i <games.fixtures.length; i++){ %>
-            <h3><%= games.fixtures[i].date %></h3>
-            <table class="table">
+                <thead>
+                    <tr>
+                        <th><%= games.fixtures[i].date %></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
                 <tbody>
                     <% for(var j=0; j<games.fixtures[i].games.length; j++){ 
                         var game = games.fixtures[i].games[j];
@@ -39,19 +49,23 @@
                             <td class="text-secondary">Groupe <%= game.group %><br><%= game.place %></td>
                             <td><%= homeTeam.name %></td>
                             <td><img src="../public/css/flagsmini/blank.gif" class="flag flag-<%= homeTeam.alpha%>" alt="" /></td>
-                            <% if(game.result.goalsHomeTeam === null){ %>
-                                <td><%= matchDate.getHours() %> : <%= matchDate.getMinutes() == 0 ? "00" : matchDate.getMinutes() ;%></td>
-                            <% } else { %>
-                                <td><%= game.result.goalsHomeTeam %> - <%= game.result.goalsAwayTeam %></td>
-                            <% } %>
+                            <td>
+                                <span class="badge badge-secondary">
+                                    <% if(game.result.goalsHomeTeam === null){ %>
+                                        <%= matchDate.getHours() %> : <%= matchDate.getMinutes() == 0 ? "00" : matchDate.getMinutes() ;%>
+                                    <% } else { %>
+                                        <%= game.result.goalsHomeTeam %> - <%= game.result.goalsAwayTeam %>
+                                    <% } %>
+                                </span>
+                            </td>
                             <td><img src="../public/css/flagsmini/blank.gif" class="flag flag-<%= awayTeam.alpha%>" alt="" /></td>
                             <td><%= awayTeam.name %></td>
                             <td class="text-secondary"><%= game.TV %></td>
                         </tr>
                     <% } %>
                 </tbody>
-            </table>
         <% } %>
+        </table>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
