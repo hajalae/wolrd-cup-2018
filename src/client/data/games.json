@@ -1,0 +1,895 @@
+{
+    "fixtures":[
+       {
+          "date":"Jeudi 14 juin",
+          "games":[
+             {
+                "date":"2018-06-14T15:00:00Z",
+                "status":"TIMED",
+                "matchday":1,
+                "homeTeamName":"Russia",
+                "homeTeamId":25,
+                "awayTeamName":"Saudi Arabia",
+                "awayTeamId":2,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "A",
+                "place" : "Moscou",
+                "TV": "TF1 & BeIN"
+             }
+          ]
+       },
+       {
+          "date":"Vendredi 15 juin",
+          "games":[
+             {
+                "date":"2018-06-15T12:00:00Z",
+                "status":"TIMED",
+                "matchday":1,
+                "homeTeamName":"Egypt",
+                "homeTeamId":11,
+                "awayTeamName":"Uruguay",
+                "awayTeamId":31,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "A",
+                "place" : "Iekaterinbourg",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-15T15:00:00Z",
+                "status":"TIMED",
+                "matchday":1,
+                "homeTeamName":"Morocco",
+                "homeTeamId":16,
+                "awayTeamName":"Iran",
+                "awayTeamId":24,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "B",
+                "place" : "Saint-Petersbourg",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-15T18:00:00Z",
+                "status":"TIMED",
+                "matchday":1,
+                "homeTeamName":"Portugal",
+                "homeTeamId":22,
+                "awayTeamName":"Spain",
+                "awayTeamId":12,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "B",
+                "place" : "Sotchi",
+                "TV": "TF1 & BeIN"
+             }
+          ]
+       },
+       {
+          "date":"Samedi 16 juin",
+          "games":[
+             {
+                "date":"2018-06-16T10:00:00Z",
+                "status":"TIMED",
+                "matchday":1,
+                "homeTeamName":"France",
+                "homeTeamId":13,
+                "awayTeamName":"Austalia",
+                "awayTeamId":4,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "C",
+                "place" : "Kazan",
+                "TV": "TF1 & BeIN"
+             },
+             {
+                "date":"2018-06-16T13:00:00Z",
+                "status":"TIMED",
+                "matchday":1,
+                "homeTeamName":"Argentina",
+                "homeTeamId":3,
+                "awayTeamName":"Iceland",
+                "awayTeamId":14,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "D",
+                "place" : "Moscou",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-16T16:00:00Z",
+                "status":"TIMED",
+                "matchday":1,
+                "homeTeamName":"Peru",
+                "homeTeamId":20,
+                "awayTeamName":"Denmark",
+                "awayTeamId":10,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "C",
+                "place" : "Saransk",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-16T19:00:00Z",
+                "status":"TIMED",
+                "matchday":1,
+                "homeTeamName":"Croatia",
+                "homeTeamId":9,
+                "awayTeamName":"Nigeria",
+                "awayTeamId":18,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "D",
+                "place" : "Kaliningrad",
+                "TV": "TF1 & BeIN"
+             }
+          ]
+       },
+       {
+          "date":"Dimanche 17 juin",
+          "games":[
+             {
+                "date":"2018-06-17T12:00:00Z",
+                "status":"TIMED",
+                "matchday":1,
+                "homeTeamName":"Costa Rica",
+                "homeTeamId":8,
+                "awayTeamName":"Serbia",
+                "awayTeamId":27,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "E",
+                "place" : "Samara",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-17T15:00:00Z",
+                "status":"TIMED",
+                "matchday":1,
+                "homeTeamName":"Germany",
+                "homeTeamId":0,
+                "awayTeamName":"Mexico",
+                "awayTeamId":17,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "F",
+                "place" : "Sotchi",
+                "TV": "TF1 & BeIN"
+             },
+             {
+                "date":"2018-06-17T18:00:00Z",
+                "status":"TIMED",
+                "matchday":1,
+                "homeTeamName":"Brazil",
+                "homeTeamId":6,
+                "awayTeamName":"Switzerland",
+                "awayTeamId":29,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "E",
+                "place" : "Volgograd",
+                "TV": "TF1 & BeIN"
+             }
+          ]
+       },
+       {
+          "date":"Lundi 18 juin",
+          "games":[
+             {
+                "date":"2018-06-18T12:00:00Z",
+                "status":"TIMED",
+                "matchday":1,
+                "homeTeamName":"Sweden",
+                "homeTeamId":28,
+                "awayTeamName":"Korea Republic",
+                "awayTeamId":23,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "F",
+                "place" : "Saransk",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-18T15:00:00Z",
+                "status":"TIMED",
+                "matchday":1,
+                "homeTeamName":"Belgium",
+                "homeTeamId":5,
+                "awayTeamName":"Panama",
+                "awayTeamId":19,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "G",
+                "place" : "Moscou",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-18T18:00:00Z",
+                "status":"TIMED",
+                "matchday":1,
+                "homeTeamName":"Tunisia",
+                "homeTeamId":30,
+                "awayTeamName":"England",
+                "awayTeamId":1,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "G",
+                "place" : "Saint-Petersbourg",
+                "TV": "TF1 & BeIN"
+             }
+          ]
+       },
+       {
+          "date":"Mardi 19 juin",
+          "games":[
+             {
+                "date":"2018-06-19T12:00:00Z",
+                "status":"TIMED",
+                "matchday":1,
+                "homeTeamName":"Colombia",
+                "homeTeamId":7,
+                "awayTeamName":"Japan",
+                "awayTeamId":15,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "H",
+                "place" : "Saransk",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-19T15:00:00Z",
+                "status":"TIMED",
+                "matchday":1,
+                "homeTeamName":"Poland",
+                "homeTeamId":21,
+                "awayTeamName":"Senegal",
+                "awayTeamId":26,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "H",
+                "place" : "Moscou",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-19T18:00:00Z",
+                "status":"TIMED",
+                "matchday":2,
+                "homeTeamName":"Russia",
+                "homeTeamId":25,
+                "awayTeamName":"Egypt",
+                "awayTeamId":11,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "A",
+                "place" : "Saint-Petersbourg",
+                "TV": "BeIN"
+             }
+          ]
+       },
+       {
+          "date":"Mercredi 20 juin",
+          "games":[
+             {
+                "date":"2018-06-20T12:00:00Z",
+                "status":"TIMED",
+                "matchday":2,
+                "homeTeamName":"Portugal",
+                "homeTeamId":22,
+                "awayTeamName":"Morocco",
+                "awayTeamId":16,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "B",
+                "place" : "Moscou",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-20T15:00:00Z",
+                "status":"TIMED",
+                "matchday":2,
+                "homeTeamName":"Uruguay",
+                "homeTeamId":31,
+                "awayTeamName":"Saudi Arabia",
+                "awayTeamId":2,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "A",
+                "place" : "Rostov-sur-le-Don",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-20T18:00:00Z",
+                "status":"TIMED",
+                "matchday":2,
+                "homeTeamName":"Iran",
+                "homeTeamId":24,
+                "awayTeamName":"Spain",
+                "awayTeamId":12,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "B",
+                "place" : "Kazan",
+                "TV": "BeIN"
+             }
+          ]
+       },
+       {
+          "date":"Jeudi 21 juin",
+          "games":[
+             {
+                "date":"2018-06-21T12:00:00Z",
+                "status":"TIMED",
+                "matchday":2,
+                "homeTeamName":"Denmark",
+                "homeTeamId":10,
+                "awayTeamName":"Austalia",
+                "awayTeamId":4,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "C",
+                "place" : "Samara",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-21T15:00:00Z",
+                "status":"TIMED",
+                "matchday":2,
+                "homeTeamName":"France",
+                "homeTeamId":13,
+                "awayTeamName":"Peru",
+                "awayTeamId":20,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "C",
+                "place" : "Iekaterinbourg",
+                "TV": "TF1 & BeIN"
+             },
+             {
+                "date":"2018-06-21T18:00:00Z",
+                "status":"TIMED",
+                "matchday":2,
+                "homeTeamName":"Argentina",
+                "homeTeamId":3,
+                "awayTeamName":"Croatia",
+                "awayTeamId":9,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "D",
+                "place" : "Nijni Novgorod",
+                "TV": "TF1 & BeIN"
+             }
+          ]
+       },
+       {
+          "date":"Vendredi 22 juin",
+          "games":[
+             {
+                "date":"2018-06-22T12:00:00Z",
+                "status":"TIMED",
+                "matchday":2,
+                "homeTeamName":"Brazil",
+                "homeTeamId":6,
+                "awayTeamName":"Costa Rica",
+                "awayTeamId":8,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "E",
+                "place" : "Saint-Pétersbourg",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-22T15:00:00Z",
+                "status":"TIMED",
+                "matchday":2,
+                "homeTeamName":"Nigeria",
+                "homeTeamId":18,
+                "awayTeamName":"Iceland",
+                "awayTeamId":14,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "D",
+                "place" : "Volgograd",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-22T18:00:00Z",
+                "status":"TIMED",
+                "matchday":2,
+                "homeTeamName":"Serbia",
+                "homeTeamId":27,
+                "awayTeamName":"Switzerland",
+                "awayTeamId":29,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "E",
+                "place" : "Kaliningrad",
+                "TV": "BeIN"
+             }
+          ]
+       },
+       {
+          "date":"Samedi 23 juin",
+          "games":[
+             {
+                "date":"2018-06-23T12:00:00Z",
+                "status":"TIMED",
+                "matchday":2,
+                "homeTeamName":"Belgium",
+                "homeTeamId":5,
+                "awayTeamName":"Tunisia",
+                "awayTeamId":30,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "G",
+                "place" : "Moscou",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-23T15:00:00Z",
+                "status":"TIMED",
+                "matchday":2,
+                "homeTeamName":"Korea Republic",
+                "homeTeamId":23,
+                "awayTeamName":"Mexico",
+                "awayTeamId":17,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "F",
+                "place" : "Rostov-sur-le-Don",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-23T18:00:00Z",
+                "status":"TIMED",
+                "matchday":2,
+                "homeTeamName":"Germany",
+                "homeTeamId":0,
+                "awayTeamName":"Sweden",
+                "awayTeamId":28,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "F",
+                "place" : "Sotchi",
+                "TV": "TF1 & BeIN"
+             }
+          ]
+       },
+       {
+          "date":"Dimanche 24 juin",
+          "games":[
+             {
+                "date":"2018-06-24T12:00:00Z",
+                "status":"TIMED",
+                "matchday":2,
+                "homeTeamName":"England",
+                "homeTeamId":1,
+                "awayTeamName":"Panama",
+                "awayTeamId":19,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "G",
+                "place" : "Nijni Novgorod",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-24T15:00:00Z",
+                "status":"TIMED",
+                "matchday":2,
+                "homeTeamName":"Japan",
+                "homeTeamId":15,
+                "awayTeamName":"Senegal",
+                "awayTeamId":26,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "H",
+                "place" : "Iekaterinbourg",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-24T18:00:00Z",
+                "status":"TIMED",
+                "matchday":2,
+                "homeTeamName":"Poland",
+                "homeTeamId":21,
+                "awayTeamName":"Colombia",
+                "awayTeamId":7,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "H",
+                "place" : "Kazan",
+                "TV": "TF1 & BeIN"
+             }
+          ]
+       },
+       {
+          "date":"Lundi 25 juin",
+          "games":[
+             {
+                "date":"2018-06-25T14:00:00Z",
+                "status":"TIMED",
+                "matchday":3,
+                "homeTeamName":"Saudi Arabia",
+                "homeTeamId":2,
+                "awayTeamName":"Egypt",
+                "awayTeamId":11,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "A",
+                "place" : "Samara",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-25T14:00:00Z",
+                "status":"TIMED",
+                "matchday":3,
+                "homeTeamName":"Uruguay",
+                "homeTeamId":31,
+                "awayTeamName":"Russia",
+                "awayTeamId":25,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "A",
+                "place" : "Volgograd",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-25T18:00:00Z",
+                "status":"TIMED",
+                "matchday":3,
+                "homeTeamName":"Iran",
+                "homeTeamId":24,
+                "awayTeamName":"Portugal",
+                "awayTeamId":22,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "B",
+                "place" : "Saransk",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-25T18:00:00Z",
+                "status":"TIMED",
+                "matchday":3,
+                "homeTeamName":"Spain",
+                "homeTeamId":12,
+                "awayTeamName":"Morocco",
+                "awayTeamId":16,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "B",
+                "place" : "Kaliningrad",
+                "TV": "BeIN"
+             }
+          ]
+       },
+       {
+          "date":"Lundi 26 juin",
+          "games":[
+             {
+                "date":"2018-06-26T14:00:00Z",
+                "status":"TIMED",
+                "matchday":3,
+                "homeTeamName":"Denmark",
+                "homeTeamId":10,
+                "awayTeamName":"France",
+                "awayTeamId":13,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "C",
+                "place" : "Moscou",
+                "TV": "TF1 & BeIN"
+             },
+             {
+                "date":"2018-06-26T14:00:00Z",
+                "status":"TIMED",
+                "matchday":3,
+                "homeTeamName":"Austalia",
+                "homeTeamId":4,
+                "awayTeamName":"Peru",
+                "awayTeamId":20,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "C",
+                "place" : "Sotchi",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-26T18:00:00Z",
+                "status":"TIMED",
+                "matchday":3,
+                "homeTeamName":"Nigeria",
+                "homeTeamId":18,
+                "awayTeamName":"Argentina",
+                "awayTeamId":3,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "D",
+                "place" : "Rostov-sur-le-Don",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-26T18:00:00Z",
+                "status":"TIMED",
+                "matchday":3,
+                "homeTeamName":"Iceland",
+                "homeTeamId":14,
+                "awayTeamName":"Croatia",
+                "awayTeamId":9,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "D",
+                "place" : "Saint-Pétersbourg",
+                "TV": "BeIN"
+             }
+          ]
+       },
+       {
+          "date":"Mercredi 27 juin",
+          "games":[
+             {
+                "date":"2018-06-27T14:00:00Z",
+                "status":"TIMED",
+                "matchday":3,
+                "homeTeamName":"Mexico",
+                "homeTeamId":17,
+                "awayTeamName":"Sweden",
+                "awayTeamId":28,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "F",
+                "place" : "Kazan",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-27T14:00:00Z",
+                "status":"TIMED",
+                "matchday":3,
+                "homeTeamName":"Korea Republic",
+                "homeTeamId":23,
+                "awayTeamName":"Germany",
+                "awayTeamId":0,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "F",
+                "place" : "Iekaterinbourg",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-27T18:00:00Z",
+                "status":"TIMED",
+                "matchday":3,
+                "homeTeamName":"Serbia",
+                "homeTeamId":27,
+                "awayTeamName":"Brazil",
+                "awayTeamId":6,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "E",
+                "place" : "Moscou",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-27T18:00:00Z",
+                "status":"TIMED",
+                "matchday":3,
+                "homeTeamName":"Switzerland",
+                "homeTeamId":29,
+                "awayTeamName":"Costa Rica",
+                "awayTeamId":8,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "E",
+                "place" : "Nijni Novgorod",
+                "TV": "BeIN"
+             }
+          ]
+       },
+       {
+          "date":"Jeudi 28 juin",
+          "games":[
+             {
+                "date":"2018-06-28T14:00:00Z",
+                "status":"TIMED",
+                "matchday":3,
+                "homeTeamName":"Japan",
+                "homeTeamId":15,
+                "awayTeamName":"Poland",
+                "awayTeamId":21,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "H",
+                "place" : "Volgograd",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-28T14:00:00Z",
+                "status":"TIMED",
+                "matchday":3,
+                "homeTeamName":"Senegal",
+                "homeTeamId":26,
+                "awayTeamName":"Colombia",
+                "awayTeamId":7,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "H",
+                "place" : "Samara",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-28T18:00:00Z",
+                "status":"TIMED",
+                "matchday":3,
+                "homeTeamName":"Panama",
+                "homeTeamId":19,
+                "awayTeamName":"Tunisia",
+                "awayTeamId":30,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "G",
+                "place" : "Saransk",
+                "TV": "BeIN"
+             },
+             {
+                "date":"2018-06-28T18:00:00Z",
+                "status":"TIMED",
+                "matchday":3,
+                "homeTeamName":"England",
+                "homeTeamId":1,
+                "awayTeamName":"Belgium",
+                "awayTeamId":5,
+                "result":{
+                   "goalsHomeTeam":null,
+                   "goalsAwayTeam":null
+                },
+                "odds":null,
+                "group" : "G",
+                "place" : "Kaliningrad",
+                "TV": "BeIN"
+             }
+          ]
+       }
+    ]
+ }

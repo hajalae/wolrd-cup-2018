@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/css/flagsmini/flags.min.css"/>
+    <title>Deroulement de la coupe du monde</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/course/fixtures">Calendrier</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/course/ranking">Classements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/course/direct">Matchs en direct</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <%  for(var index in groups.standings){
+                var group = groups.standings[index]; %>
+        
+        <div class="container pt-2">
+            <table class="table table-hover">
+                <h4>Groupe <%= index %></h4>
+                <thead class="thead-light">
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col">Equipe</th>
+                    <th scope="col">Pts</th>
+                    <th scope="col">J</th>
+                    <th scope="col">BP</th>
+                    <th scope="col">BC</th>
+                    <th scope="col">Diff</th>
+                </tr>
+                </thead>
+                <tbody>
+                
+                <% for(var i=1; i<=group.length; i++) {
+                    var teamIndex = group[i-1].teamId;
+                    teamIndex = correspondanceId.correspondanceId.indexOf(teamIndex);%>
+                <tr>
+                    <th scope="row"><%= i %></th>
+                    <td><img src="../public/css/flagsmini/blank.gif" class="flag flag-<%= teams.teams[teamIndex].alpha%>" alt="" /></td>
+                    <td>
+                        <a href="/teams/<%= teams.teams[teamIndex].name%>">
+                            <%= teams.teams[teamIndex].name %>
+                        </a>
+                    </td>
+                    <td><%= group[i-1].points %></td>
+                    <td><%= group[i-1].playedGames %></td>
+                    <td><%= group[i-1].goals %></td>
+                    <td><%= group[i-1].goalsAgainst %></td>
+                    <td><%= group[i-1].goalDifference %></td>
+                </tr>
+                <% }} %>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

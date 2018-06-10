@@ -1,5 +1,8 @@
 var express = require('express');
 var teamsJson = require('./data/teams.json')
+var correspondanceId = require('./data/correspondanceId.json');
+var games = require('./data/games.json');
+var http = require('http');
 
 var app = express();
 
@@ -33,9 +36,33 @@ app.get('/', function(req, res) {
         res.render('teamsDescription.ejs', {team: teamObject});
     }
 })
-.get('/fixtures', function(req, res){
+.get('/course/ranking', function(req, res){
     res.setHeader('Content-Type', 'text/html');
-    res.send('<h1>Fixtures</h1>');
+    var options = {
+        host: 'api.football-data.org',
+        port: 80,
+        path: '/v1/competitions/467/leagueTable',
+        headers: {'X-Auth-Token' : 'ee1bca07af444f0fa79251b6ed179e32'}
+    }
+    http.get(options, (resp) => {
+        let groups = '';
+        
+        resp.on('data', (chunk) => {
+            groups += chunk;
+        });
+        
+        resp.on('end', () => {
+            groups = JSON.parse(groups);
+            res.render('ranking.ejs', {groups : groups, correspondanceId : correspondanceId, teams : teamsJson});
+        });
+        
+        }).on("error", (err) => {
+        console.log("Error: " + err.message);
+    });
+})
+.get('/course/fixtures', function(req, res){
+    res.setHeader('Content-Type', 'text/html');
+    res.render('fixtures.ejs', {games : games, correspondanceId : correspondanceId, teams : teamsJson});
 })
 .get('/pronostic', function(req, res){
     res.setHeader('Content-Type', 'text/html');
