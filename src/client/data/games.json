@@ -12,8 +12,8 @@
                 "awayTeamName":"Saudi Arabia",
                 "awayTeamId":2,
                 "result":{
-                   "goalsHomeTeam":null,
-                   "goalsAwayTeam":null
+                   "goalsHomeTeam":1,
+                   "goalsAwayTeam":0
                 },
                 "odds":null,
                 "group" : "A",

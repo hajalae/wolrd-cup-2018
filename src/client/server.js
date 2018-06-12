@@ -3,8 +3,14 @@ var teamsJson = require('./data/teams.json')
 var correspondanceId = require('./data/correspondanceId.json');
 var games = require('./data/games.json');
 var http = require('http');
+const bodyParser = require("body-parser");
 
 var app = express();
+
+app.use(bodyParser.urlencoded({
+    extended: true
+}));
+app.use(bodyParser.json());
 
 app.get('/', function(req, res) {
     res.setHeader('Content-Type', 'text/html');
@@ -23,7 +29,7 @@ app.get('/', function(req, res) {
     let teamObject = undefined;
     for(let i=0; i<teamsJson.teams.length; i++)
     {
-        if(teamsJson.teams[i].name === req.params.nameTeam){
+        if(teamsJson.teams[i].urlName === req.params.nameTeam){
             teamObject = teamsJson.teams[i]
         }
     }
@@ -33,7 +39,6 @@ app.get('/', function(req, res) {
     }
     else
     {
-        console.log(teamObject);
         res.render('teamsDescription.ejs', {team: teamObject});
     }
 })
@@ -68,6 +73,11 @@ app.get('/', function(req, res) {
 .get('/pronostic', function(req, res){
     res.setHeader('Content-Type', 'text/html');
     res.render('pronostics.ejs');
+})
+.post('/pronostic/result', function(req, res){
+    let teamName = req.body.first;
+    res.setHeader('Content-Type', 'text/html');
+    res.render('result.ejs', {first: teamName});
 })
 .get("/contact",function(req,res){
     res.setHeader('Content-Type', 'text/html');

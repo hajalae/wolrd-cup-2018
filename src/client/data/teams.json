@@ -2,84 +2,122 @@
     "teams":[
        {
           "name":"Allemagne",
-          "img":"allemagne.jpg",
+          "urlName" : "allemagne" , "img":"allemagne.jpg",
           "alpha":"de",
           "teamId":0,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"1",
+          "worldCupPastParticipation":"18",
+          "worldCupPast":"14",
+          "bestResult":"VAINQUEUR 1954, 1974, 1990, 2014",
+          "firstRound":"18",
+          "semiFinals":"13",
+          "finals":"8",
+          "titles":"4",
+          "coachName":"Joachim LÖW",
+          "coachDescription":"Ex-adjoint de Jürgen Klinsmann, Löw est en place depuis 2006. En un peu plus de dix ans, il a collectionné les succès. Après avoir remporté la Coupe du Monde 2014, il s'est imposé en finale de la Coupe des Confédérations de la FIFA 2017.",
+          "coachImg":"low.jpg",
           "team":{
              "goalKeepers":[
- 
+                "M. NEUER",
+                "K. TRAPP",
+                "M. TER STEGEN"
              ],
              "defenders":[
- 
+                "J. KIMMICH",
+                "A. RUDIGER",
+                "J. BOATENG",
+                "M. HUMMELS",
+                "N. SULE",
+                "M. GINTER",
+                "J. HECTOR",
+                "M. PLATTENHARDT"
              ],
              "midfieldrs":[
- 
+                 "S. KHEDIRA",
+                 "T. KROOS",
+                 "I. GUNDOGAN",
+                 "L. GORETZKA",
+                 "M. OZIL",
+                 "S. RUDY"
              ],
              "forwards":[
- 
+                "T. MULLER",
+                "J. BRANDT",
+                "T. WERNER",
+                "J. DRAXLER",
+                "M. REUS",
+                "M. GOMEZ"
              ]
           },
-          "teamImg":""
+          "teamImg":"allemagneTeam.jpg"
        },
        {
           "name":"Angleterre",
-          "img":"angleterre.jpg",
+          "urlName" : "angleterre" , "img":"angleterre.jpg",
           "alpha":"gb",
           "teamId":1,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"12",
+          "worldCupPastParticipation":"14",
+          "worldCupPast":"16",
+          "bestResult":"VAINQUEUR 1966",
+          "firstRound":"14",
+          "semiFinals":"2",
+          "finals":"1",
+          "titles":"1",
+          "coachName":"GARETH SOUTHGATE",
+          "coachDescription":"Nommé provisoirement à la succession de Sam Allardyce en septembre 2016, Southgate a été confirmé dans ses fonctions le 30 novembre 2016. Ancien défenseur international, il a participé à France 1998 et Corée/Japon 2002. Les Three Lions disputeront leur sixième Coupe du Monde consécutive après avoir obtenu la première place du Groupe F.",
+          "coachImg":"southgate.jpg",
           "team":{
              "goalKeepers":[
- 
+                "J. BUTLAND",
+                "J. PICKFORD",
+                "N. POPE"
              ],
              "defenders":[
- 
+                "G. KAHILL",
+                "E. DIER",
+                "P. JONES",
+                "H. MAGUIRE",
+                "J. STONES",
+                "K. TRIPPIER",
+                "K. WALKER"
              ],
              "midfieldrs":[
- 
+                "T. ALEXANDER-ARNOLD",
+                "D. ALI",
+                "F. DELPH",
+                "J. HENDERSON",
+                "J. LINGARD",
+                "R. LOFTUS-CHEEK",
+                "D. ROSE",
+                "R. STERLING",
+                "A. YOUNG"
              ],
              "forwards":[
- 
+                "H. KANE",
+                "M. RASHFORD",
+                "J. VARDY",
+                "D. WELBECK"
              ]
           },
-          "teamImg":""
+          "teamImg":"englandTeam.jpg"
        },
        {
           "name":"Arabie Saoudite",
-          "img":"arabie-saoudite.jpg",
+          "urlName" : "arabie-saoudite" , "img":"arabie-saoudite.jpg",
           "alpha":"sa",
           "teamId":2,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"67",
+          "worldCupPastParticipation":"4",
+          "worldCupPast":"11",
+          "bestResult":"Huitième de finale 1994",
+          "firstRound":"4",
+          "semiFinals":"0",
+          "finals":"0",
+          "titles":"0",
+          "coachName":"JUAN ANTONIO PIZZI",
+          "coachDescription":"L'Argentin a été nommé sélectionneur de l'Arabie Saoudite en novembre 2017, une fois son aventure finie à la tête du Chili. Aux commandes de la Roja, il a remporté la Copa América 2016, mais il a échoué à qualifier le pays pour Russie 2018. En tant que joueur, Pizzi était un attaquant efficace. Il a représenté l’Espagne au niveau international, disputant l’UEFA EURO 1996 et la Coupe du Monde 1998.",
+          "coachImg":"pizzi.jpg",
           "team":{
              "goalKeepers":[
  
@@ -94,24 +132,24 @@
  
              ]
           },
-          "teamImg":""
+          "teamImg":"saudiTeam.jpg"
        },
        {
           "name":"Argentine",
-          "img":"argentine.jpg",
+          "urlName" : "argentine" , "img":"argentine.jpg",
           "alpha":"ar",
           "teamId":3,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"5",
+          "worldCupPastParticipation":"16",
+          "worldCupPast":"13",
+          "bestResult":"VAINQUEUR 1978, 1986",
+          "firstRound":"16",
+          "semiFinals":"5",
+          "finals":"5",
+          "titles":"2",
+          "coachName":"JORGE SAMPAOLI",
+          "coachDescription":"L'Argentin a mené le Chili en huitièmes de finale de Brésil 2014. Quatre ans plus tard, son jeu à base de pressing intense a permis à son pays d’origine de valider son billet pour la Russie. L'Albiceleste a utilisé trois entraîneurs au fil d'une campagne tumultueuse, mais le vainqueur de la Copa America 2015 a fini par trouver la formule gagnante.",
+          "coachImg":"sampoli.jpg",
           "team":{
              "goalKeepers":[
  
@@ -126,24 +164,24 @@
  
              ]
           },
-          "teamImg":""
+          "teamImg":"argentinaTeam.jpg"
        },
        {
           "name":"Australie",
-          "img":"australie.jpg",
+          "urlName" : "australie" , "img":"australie.jpg",
           "alpha":"au",
           "teamId":4,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"36",
+          "worldCupPastParticipation":"4",
+          "worldCupPast":"14",
+          "bestResult":"Huitième de finale 2006",
+          "firstRound":"4",
+          "semiFinals":"0",
+          "finals":"0",
+          "titles":"0",
+          "coachName":"BERT VAN MARWIJK",
+          "coachDescription":"Bert van Marwijk a été nommé sélectionneur de l’Australie en janvier, prenant ainsi la succession d’Ange Postecoglou, démissionnaire après avoir pourtant qualifié les Socceroos en novembre 2017. A 65 ans, le Néerlandais a une vaste expérience, notamment celle d’avoir mené les Pays-Bas en finale de la Coupe du Monde de la FIFA 2010. Il a également réussi à qualifier l’Arabie Saoudite pour Russie 2018, après 12 ans d’absence des Saoudiens sur la scène mondiale.",
+          "coachImg":"marwijk.jpg",
           "team":{
              "goalKeepers":[
  
@@ -158,24 +196,24 @@
  
              ]
           },
-          "teamImg":""
+          "teamImg":"autraliaTeam.jpg"
        },
        {
           "name":"Belgique",
-          "img":"belgique.jpg",
+          "urlName" : "belgique" , "img":"belgique.jpg",
           "alpha":"be",
           "teamId":5,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"3",
+          "worldCupPastParticipation":"12",
+          "worldCupPast":"19",
+          "bestResult":"Quatrième place 1986",
+          "firstRound":"12",
+          "semiFinals":"1",
+          "finals":"0",
+          "titles":"0",
+          "coachName":"ROBERTO MARTÍNEZ",
+          "coachDescription":"L'ancien entraîneur d'Everton et de Swansea a succédé à Marc Wilmots en 2016. L'Espagnol, qui n'avait travaillé qu'en club, a validé le ticket des Diables Rouges sans goûter à la défaite. Martinez effectuera en 2018 sa première apparition en tant que joueur ou entraîneur dans un tournoi FIFA.",
+          "coachImg":"martinez.jpg",
           "team":{
              "goalKeepers":[
  
@@ -190,27 +228,29 @@
  
              ]
           },
-          "teamImg":""
+          "teamImg":"belgiumTeam.jpg"
        },
        {
           "name":"Brésil",
-          "img":"bresil.jpg",
+          "urlName" : "bresil" , "img":"bresil.jpg",
           "alpha":"br",
           "teamId":6,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"2",
+          "worldCupPastParticipation":"20",
+          "worldCupPast":"12",
+          "bestResult":"Vainqueur 1958, 1962, 1970, 1994, 2002",
+          "firstRound":"20",
+          "semiFinals":"11",
+          "finals":"7",
+          "titles":"5",
+          "coachName":"TITE",
+          "coachDescription":"Depuis son arrivée en juin 2016, Tite a totalement transformé l'équipe du Brésil. Sixième de la CONMEBOL à l'époque, la Seleçao a remporté neuf matches de suite, devenant la première équipe à se qualifier pour Russie 2018. Vainqueur de la Coupe du Monde des Clubs de la FIFA 2012 avec les Corinthians, Tite rêve de soulever le trophée mondial l'été prochain.",
+          "coachImg":"tite.jpg",
           "team":{
              "goalKeepers":[
- 
+                "A. BECKER",
+                "CASSIO",
+                "EDERSON"
              ],
              "defenders":[
  
@@ -222,11 +262,11 @@
  
              ]
           },
-          "teamImg":""
+          "teamImg":"bresilTeam.jpg"
        },
        {
           "name":"Colombie",
-          "img":"colombie.jpg",
+          "urlName" : "colombie" , "img":"colombie.jpg",
           "alpha":"co",
           "teamId":7,
           "fifaRanking":"",
@@ -258,7 +298,7 @@
        },
        {
           "name":"Costa Rica",
-          "img":"costa-rica.jpg",
+          "urlName" : "costa-rica" , "img":"costa-rica.jpg",
           "alpha":"cr",
           "teamId":8,
           "fifaRanking":"",
@@ -290,7 +330,7 @@
        },
        {
           "name":"Croatie",
-          "img":"croatie.jpg",
+          "urlName" : "croatie" , "img":"croatie.jpg",
           "alpha":"hr",
           "teamId":9,
           "fifaRanking":"",
@@ -322,7 +362,7 @@
        },
        {
           "name":"Danemark",
-          "img":"danemark.jpg",
+          "urlName" : "danemark" , "img":"danemark.jpg",
           "alpha":"dk",
           "teamId":10,
           "fifaRanking":"",
@@ -354,7 +394,7 @@
        },
        {
           "name":"Egypte",
-          "img":"egypte.jpg",
+          "urlName" : "egypte" , "img":"egypte.jpg",
           "alpha":"eg",
           "teamId":11,
           "fifaRanking":"",
@@ -386,7 +426,7 @@
        },
        {
           "name":"Espagne",
-          "img":"espagne.jpg",
+          "urlName" : "espagne" , "img":"espagne.jpg",
           "alpha":"es",
           "teamId":12,
           "fifaRanking":"",
@@ -418,7 +458,7 @@
        },
        {
           "name":"France",
-          "img":"france.jpg",
+          "urlName" : "france" , "img":"france.jpg",
           "alpha":"fr",
           "teamId":13,
           "fifaRanking":"7",
@@ -469,7 +509,7 @@
        },
        {
           "name":"Islande",
-          "img":"islande.jpg",
+          "urlName" : "islande" , "img":"islande.jpg",
           "alpha":"is",
           "teamId":14,
           "fifaRanking":"",
@@ -501,7 +541,7 @@
        },
        {
           "name":"Japon",
-          "img":"japon.jpg",
+          "urlName" : "japon" , "img":"japon.jpg",
           "alpha":"jp",
           "teamId":15,
           "fifaRanking":"",
@@ -533,7 +573,7 @@
        },
        {
           "name":"Maroc",
-          "img":"maroc.jpg",
+          "urlName" : "maroc" , "img":"maroc.jpg",
           "alpha":"ma",
           "teamId":16,
           "fifaRanking":"",
@@ -565,7 +605,7 @@
        },
        {
           "name":"Mexique",
-          "img":"mexique.jpg",
+          "urlName" : "mexique" , "img":"mexique.jpg",
           "alpha":"mx",
           "teamId":17,
           "fifaRanking":"",
@@ -597,7 +637,7 @@
        },
        {
           "name":"Nigeria",
-          "img":"nigeria.jpg",
+          "urlName" : "nigeria" , "img":"nigeria.jpg",
           "alpha":"ng",
           "teamId":18,
           "fifaRanking":"",
@@ -629,7 +669,7 @@
        },
        {
           "name":"Panama",
-          "img":"panama.jpg",
+          "urlName" : "panama" , "img":"panama.jpg",
           "alpha":"pa",
           "teamId":19,
           "fifaRanking":"",
@@ -661,7 +701,7 @@
        },
        {
           "name":"Pérou",
-          "img":"perou.jpg",
+          "urlName" : "perou" , "img":"perou.jpg",
           "alpha":"pe",
           "teamId":20,
           "fifaRanking":"",
@@ -693,7 +733,7 @@
        },
        {
           "name":"Pologne",
-          "img":"pologne.jpg",
+          "urlName" : "pologne" , "img":"pologne.jpg",
           "alpha":"pl",
           "teamId":21,
           "fifaRanking":"",
@@ -725,7 +765,7 @@
        },
        {
           "name":"Portugal",
-          "img":"portugal.jpg",
+          "urlName" : "portugal" , "img":"portugal.jpg",
           "alpha":"pt",
           "teamId":22,
           "fifaRanking":"",
@@ -757,7 +797,7 @@
        },
        {
           "name":"République de Corée",
-          "img":"republique-de-coree.jpg",
+          "urlName" : "republique-de-coree" , "img":"republique-de-coree.jpg",
           "alpha":"kr",
           "teamId":23,
           "fifaRanking":"",
@@ -789,7 +829,7 @@
        },
        {
           "name":"RI Iran",
-          "img":"ri-iran.jpg",
+          "urlName" : "ri-iran" , "img":"ri-iran.jpg",
           "alpha":"ir",
           "teamId":24,
           "fifaRanking":"",
@@ -821,7 +861,7 @@
        },
        {
           "name":"Russie",
-          "img":"russie.jpg",
+          "urlName" : "russie" , "img":"russie.jpg",
           "alpha":"ru",
           "teamId":25,
           "fifaRanking":"",
@@ -853,7 +893,7 @@
        },
        {
           "name":"Sénégal",
-          "img":"senegal.jpg",
+          "urlName" : "senegal" , "img":"senegal.jpg",
           "alpha":"sn",
           "teamId":26,
           "fifaRanking":"",
@@ -885,7 +925,7 @@
        },
        {
           "name":"Serbie",
-          "img":"serbie.jpg",
+          "urlName" : "serbie" , "img":"serbie.jpg",
           "alpha":"rs",
           "teamId":27,
           "fifaRanking":"",
@@ -917,7 +957,7 @@
        },
        {
           "name":"Suède",
-          "img":"suede.jpg",
+          "urlName" : "suede" , "img":"suede.jpg",
           "alpha":"se",
           "teamId":28,
           "fifaRanking":"",
@@ -949,7 +989,7 @@
        },
        {
           "name":"Suisse",
-          "img":"suisse.jpg",
+          "urlName" : "suisse" , "img":"suisse.jpg",
           "alpha":"ch",
           "teamId":29,
           "fifaRanking":"",
@@ -981,7 +1021,7 @@
        },
        {
           "name":"Tunisie",
-          "img":"tunisie.jpg",
+          "urlName" : "tunisie" , "img":"tunisie.jpg",
           "alpha":"tn",
           "teamId":30,
           "fifaRanking":"",
@@ -1013,7 +1053,7 @@
        },
        {
           "name":"Uruguay",
-          "img":"uruguay.jpg",
+          "urlName" : "uruguay" , "img":"uruguay.jpg",
           "alpha":"uy",
           "teamId":31,
           "fifaRanking":"",
