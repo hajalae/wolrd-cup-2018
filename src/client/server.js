@@ -33,6 +33,7 @@ app.get('/', function(req, res) {
     }
     else
     {
+        console.log(teamObject);
         res.render('teamsDescription.ejs', {team: teamObject});
     }
 })
