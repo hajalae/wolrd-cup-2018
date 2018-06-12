@@ -120,16 +120,35 @@
           "coachImg":"pizzi.jpg",
           "team":{
              "goalKeepers":[
- 
+                "A. AL MAYOUF",
+                "Y. AL MOSAILEM",
+                "M. AL OWAIS"
              ],
              "defenders":[
- 
+                 "M. AL BREIK",
+                 "A. AL BULAIHI",
+                 "M. AL HARBI",
+                 "YG. AL SHAHRANI",
+                 "M. HAWSAWI",
+                 "Om. HAWSAWI",
+                 "Os. HAWSAWI"
              ],
              "midfieldrs":[
- 
+                 "SM. AL DAWSARI",
+                 "SM. AL FARAJ",
+                 "T. AL JASSIM",
+                 "A. AL KHAIBARI",
+                 "A. AL KHAIBRI",
+                 "H. AL MOGAHWI",
+                 "YS. AL SHAHRI",
+                 "H. BAHEBRI",
+                 "M. KANNO",
+                 "A. OTAYF"
              ],
              "forwards":[
- 
+                "F. AL MUWALLAD",
+                "M. AL SAHWALI",
+                "M. ASSIRI"
              ]
           },
           "teamImg":"saudiTeam.jpg"
@@ -152,16 +171,35 @@
           "coachImg":"sampoli.jpg",
           "team":{
              "goalKeepers":[
- 
+                "F. ARMANI",
+                "W. CABALLERO",
+                "N. GUZMAN"
              ],
              "defenders":[
- 
+                 "M. ACUNA",
+                 "C. ANSALDI",
+                 "F. FAZIO",
+                 "G. MERCADO",
+                 "N. OTAMENDI",
+                 "M. ROJO",
+                 "N. TAGLIAFICO"
              ],
              "midfieldrs":[
- 
+                "E. BANEGA",
+                "L. BIGLIA",
+                "G. LO CELSO",
+                "J. MASCHERANO",
+                "M. MEZZA",
+                "C. PAVON",
+                "E. PEREZ",
+                "E. SALVIO"
              ],
              "forwards":[
- 
+                "S. AGUERO",
+                "A. DI MARIA",
+                "P. DYBALA",
+                "G. HIGUAIN",
+                "L. MESSI"
              ]
           },
           "teamImg":"argentinaTeam.jpg"
@@ -184,16 +222,34 @@
           "coachImg":"marwijk.jpg",
           "team":{
              "goalKeepers":[
- 
+                "B. JONES",
+                "M. RYAN",
+                "D. VUKOVIC"
              ],
              "defenders":[
- 
+                "A. BEHICH",
+                "M. DEGENEK",
+                "M. JURMAN",
+                "J. MEREDITH",
+                "M. MILIGAN",
+                "J. RISDON",
+                "T. SAINSBURY"
              ],
              "midfieldrs":[
- 
+                "T. CAHILL",
+                "J. IRVINE",
+                "M. JEDINAK",
+                "R. KRUSE",
+                "A. MOOY",
+                "D. PETRATOS",
+                "T. ROGIC"
              ],
              "forwards":[
- 
+                "D. ARZANI",
+                "T. JURIC",
+                "M. LECKIE",
+                "J. MACLAREN",
+                "A. NABBOUT"
              ]
           },
           "teamImg":"autraliaTeam.jpg"
@@ -216,16 +272,35 @@
           "coachImg":"martinez.jpg",
           "team":{
              "goalKeepers":[
- 
+                "K. CASTEELS",
+                "T. COURTOIS",
+                "S. MIGNOLET"
              ],
              "defenders":[
- 
+                "T. ALTERWEIRELD",
+                "D. BOYATA",
+                "V. KOMPANY",
+                "T. MEUNIER",
+                "T. VERMAELEN",
+                "J. VERTONGHEN"
              ],
              "midfieldrs":[
- 
+                "Y. CARRASCO",
+                "N. CHADLI",
+                "K. DE BRUYNE",
+                "M. DEMBELE",
+                "N. DENDONCKER",
+                "M. FELLAINI",
+                "A. JANUZAJ",
+                "D. MERTENS",
+                "Y. TIELEMANS",
+                "A. WITSEL" 
              ],
              "forwards":[
- 
+                "M. BATSHUAYI",
+                "E. HAZARD",
+                "T. HAZARD",
+                "R. LUKAKU"
              ]
           },
           "teamImg":"belgiumTeam.jpg"
@@ -253,13 +328,30 @@
                 "EDERSON"
              ],
              "defenders":[
- 
+                "F. CONSERVA",
+                "DANILO",
+                "P. GEROMEL",
+                "F. LUIS",
+                "MARCELO",
+                "MARQUINHOS",
+                "J. MIRANDA",
+                "T. SILVA"
              ],
              "midfieldrs":[
- 
+                "R. AUGUSTO",
+                "CH. CASEMIRO",
+                "D. COSTA",
+                "P. COUTINHO",
+                "FERNANDINHO",
+                "R. FIRMINHO",
+                "PAULINHO",
+                "F. RODRIGUEZ",
+                "WILLIAN"
              ],
              "forwards":[
- 
+                "G. JESUS",
+                "NEYMAR",
+                "TAISON"
              ]
           },
           "teamImg":"bresilTeam.jpg"
@@ -269,128 +361,204 @@
           "urlName" : "colombie" , "img":"colombie.jpg",
           "alpha":"co",
           "teamId":7,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"16",
+          "worldCupPastParticipation":"5",
+          "worldCupPast":"16",
+          "bestResult":"Quarts de finale 2014",
+          "firstRound":"5",
+          "semiFinals":"0",
+          "finals":"0",
+          "titles":"0",
+          "coachName":"JOSÉ PÉKERMAN",
+          "coachDescription":"Aux commandes depuis 2012, l'Argentin a mené les Cafeteros à la qualification pour deux Coupes du Monde consécutives, une première depuis les années 90. En charge de l'Albiceleste durant Allemagne 2006, il a dirigé la Colombie en 2014. Il a par ailleurs remporté trois Coupes du Monde U-20 de la FIFA avec l'Argentine.",
+          "coachImg":"pekeran.jpg",
           "team":{
              "goalKeepers":[
- 
+                "J. CUARDADO",
+                "D. OSPINA",
+                "C. VARGAS"
              ],
              "defenders":[
- 
+                "S. ARIAS",
+                "F. DIAZ",
+                "Y. MINA",
+                "J. MOJICA",
+                "O. MURILLO",
+                "D. SANCHEZ",
+                "C. ZAPATA"
              ],
              "midfieldrs":[
- 
+                "A. AGUILAR",
+                "W. BARIOS",
+                "J. CUARDADO",
+                "J. IZQUIERDO",
+                "J. LERMA",
+                "J. QUINTERO",
+                "J. RODRIGUEZ",
+                "C. SANCHEZ",
+                "M. URIBE"
              ],
              "forwards":[
- 
+                "C. BACCA",
+                "M. BORJA",
+                "R. FALCAO",
+                "L. MURIEL"
              ]
           },
-          "teamImg":""
+          "teamImg":"colombiaTeam.jpg"
        },
        {
           "name":"Costa Rica",
           "urlName" : "costa-rica" , "img":"costa-rica.jpg",
           "alpha":"cr",
           "teamId":8,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"23",
+          "worldCupPastParticipation":"4",
+          "worldCupPast":"16",
+          "bestResult":"Quarts de finale 2014",
+          "firstRound":"4",
+          "semiFinals":"0",
+          "finals":"0",
+          "titles":"0",
+          "coachName":"OSCAR RAMÍREZ",
+          "coachDescription":"Ancien sélectionneur adjoint des Ticos en 2006 puis en 2015, Ramirez a succédé à Paulo Wanchope au poste d'entraîneur en août 2015. L'ancien milieu a disputé les quatre matches de son équipe lors d'Italie 1990. Avant son arrivée à la tête de la sélection, son expérience de technicien se limitait aux clubs de son pays.",
+          "coachImg":"ramirez.jpg",
           "team":{
              "goalKeepers":[
- 
+                "L. MOREIRA",
+                "K. NAVAS",
+                "P. PEMBERTON"
              ],
              "defenders":[
- 
+                "J. ACOSTA",
+                "F. CALVO",
+                "O. DUARTE",
+                "C. GAMBOA",
+                "G. GONZALEZ",
+                "R. MATARRITA",
+                "I. SMITH",
+                "K. WATSON"
              ],
              "midfieldrs":[
- 
+                "R. AZOFEIFA",
+                "C. BOLANOS",
+                "D. GUZMAN",
+                "B. OVIEDO",
+                "B. RUIZ",
+                "Y. TEJEDA",
+                "R. WALLACE"
              ],
              "forwards":[
- 
+                "C. BORGES",
+                "J. CAMPBELL",
+                "D. COLINDRES",
+                "M. URENA",
+                "J. VENEGAS"
              ]
           },
-          "teamImg":""
+          "teamImg":"costaRicaTeam.jpg"
        },
        {
           "name":"Croatie",
           "urlName" : "croatie" , "img":"croatie.jpg",
           "alpha":"hr",
           "teamId":9,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"20",
+          "worldCupPastParticipation":"4",
+          "worldCupPast":"6",
+          "bestResult":"Troisième place 1998",
+          "firstRound":"4",
+          "semiFinals":"1",
+          "finals":"0",
+          "titles":"0",
+          "coachName":"ZLATKO DALIC",
+          "coachDescription":"Successeur d'Ante Cacic en octobre 2017, Dalic a mené son pays à bon port grâce à une victoire 4:1 face à la Grèce (sur l'ensemble des deux manches) en barrage. Auparavant, il a notamment atteint la finale de la Ligue des champions de l'AFC 2016 avec Al-Ain (EAU).",
+          "coachImg":"dalic.jpg",
           "team":{
              "goalKeepers":[
- 
+                "L. KALINIC",
+                "D. LIVAKOVIC",
+                "D. SUBASIC"
              ],
              "defenders":[
- 
+                "V. CORLUKA",
+                "T. LEDVAJ",
+                "D. LOVREN",
+                "J. PIVARIC",
+                "I. STRINIC",
+                "D. VIDA",
+                "S. VRALSJKO"
              ],
              "midfieldrs":[
- 
+                 "M. BADELJ",
+                 "F. BRADARIC",
+                 "M. BROZOVIC",
+                 "D. CALETA-CAR",
+                 "M. KOVACIC",
+                 "L. MODRIC",
+                 "I. PERISIC",
+                 "I. RAKITIC"
              ],
              "forwards":[
- 
+                 "N. KALINIC",
+                 "A. KRAMARIC",
+                 "M. MANDZUKIC",
+                 "M. PJACA",
+                 "A. REBIC"
              ]
           },
-          "teamImg":""
+          "teamImg":"croatiaTeam.jpg"
        },
        {
           "name":"Danemark",
           "urlName" : "danemark" , "img":"danemark.jpg",
           "alpha":"dk",
           "teamId":10,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"12",
+          "worldCupPastParticipation":"4",
+          "worldCupPast":"15",
+          "bestResult":"Quarts de finale 1998",
+          "firstRound":"4",
+          "semiFinals":"0",
+          "finals":"0",
+          "titles":"0",
+          "coachName":"ÅGE FRIDTJOF HAREIDE",
+          "coachDescription":"Hareide a succédé à l'inusable Morten Olsen après l'échec des Danish Dynamites dans les qualifications pour l'Euro 2016. L'ancien international norvégien a depuis mis ses années d'expérience au service du Danemark, qui a finalement obtenu son billet pour la Russie après avoir battu la République d’Irlande en barrage.",
+          "coachImg":"hareide.jpg",
           "team":{
              "goalKeepers":[
- 
+                "J. LOSSL",
+                "F. RONNOW",
+                "K. SCHMEICHEL"
              ],
              "defenders":[
- 
+                "A. CHRISTENSEN",
+                "H. DALSGAARD",
+                "MZ. JORGENSEN",
+                "S. KJAER",
+                "J. KNUDSEN",
+                "JS. LARSEN",
+                "J. VESTERGAARD"
              ],
              "midfieldrs":[
- 
+                "T. DELANEY",
+                "C. ERIKSEN",
+                "M. KROHN-DEHLI",
+                "W. KVIST",
+                "L. LERAGER",
+                "L. SCHONE"
              ],
              "forwards":[
- 
+                "M. BRAITHWAITE",
+                "A. CORNELIUS",
+                "K. DOLBERG",
+                "V. FISCHER",
+                "N. JORGENSEN",
+                "YY. POULSEN",
+                "P. SISTO"
              ]
           },
-          "teamImg":""
+          "teamImg":"denemarkTeam.jpg"
        },
        {
           "name":"Egypte",
