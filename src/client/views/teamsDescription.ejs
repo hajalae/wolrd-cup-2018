@@ -52,34 +52,37 @@
           </div> </div>
           
       
-        <div class="text-center">     
-             <p class=p-4>
-              <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Le sélectionneur</a>
-              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Composition de l'équipe</button>
-              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Prochains matchs</button>
-            </p>
-            
-          <div class="collapse multi-collapse" id="multiCollapseExample1">
+    <div class="text-center" id="myGroup">     
+             <div class=p-4>
+              <button class="btn btn-primary" data-toggle="collapse" data-target="#multiCollapseExample1" data-parent="#myGroup">Le sélectionneur</button>
+              <button class="btn btn-primary" data-toggle="collapse" data-target="#multiCollapseExample2" data-parent="#myGroup">Composition de l'équipe</button>
+              <button class="btn btn-primary" data-toggle="collapse" data-target="#multiCollapseExample3" data-parent="#myGroup">Prochains matchs</button>
+             </div>
+
+      <div class="accordion-group">
+
+          <div class="collapse " id="multiCollapseExample1" data-parent="#myGroup">
             <div class="card card-body">
                 <div class="card card-body">
-                <div class="container">
+                  <div class="container">
                     <div class="row">
                          <div class="col">
-                <h1><p class="text-danger m-3 mr-3"><%= team.coachName %></h1></p>
-                <img src="../public/images/teams/<%= team.urlName %>/<%= team.coachImg %>"  class="rounded" alt="Responsive image">
+                            <h1><p class="text-danger m-3 mr-3"><%= team.coachName %></p></h1>
+                            <img src="../public/images/teams/<%= team.urlName %>/<%= team.coachImg %>"  class="rounded" alt="Responsive image">
                          </div>
-                <div class="col p-5 vertical-center">   
-                      <p>
-                        <%= team.coachDescription %>
-                      </p>
+                        <div class="col p-5 vertical-center">   
+                          <p>
+                            <%= team.coachDescription %>
+                          </p>
+                        </div>
+                      </div>
+                  </div>
                 </div>
-                </div>
-        </div>
-        </div>
-        </div></div>
+              </div>
+            </div>
         
         
-          <div class="collapse multi-collapse" id="multiCollapseExample2">
+          <div class="collapse" id="multiCollapseExample2" data-parent="#myGroup">
             <div class="card card-body">
               <table class="table vertical-center style=float:none; ">
                 <thead>
@@ -147,7 +150,7 @@
             </div>
           
           
-          <div class="collapse multi-collapse" id="multiCollapseExample3">
+          <div class="collapse" id="multiCollapseExample3" data-parent="#myGroup">
             <div class="card card-body">
                 <table class="table table-sm">
                    <tbody>
@@ -164,22 +167,15 @@
                      </tbody>
                   </table>
       
-    </div>
-  </div>
-              
-          <p class="p-3">
-           <img src="../public/images/teams/<%= team.urlName %>/<%= team.teamImg %>"  class="img-fluid" " alt="Max-width 400px" alt="Responsive image"/>
-          </p>
-
-                    
-        
-            
-
-      
+              </div>
+            </div>
       </div>
-
-
-</body>
+    </div>
+              
+      <div class="p-3">
+        <img src="../public/images/teams/<%= team.urlName %>/<%= team.teamImg %>"  class="img-fluid"  alt="Max-width 400px" alt="Responsive image"/>
+      </div>
+ 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
