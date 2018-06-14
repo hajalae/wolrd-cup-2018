@@ -565,64 +565,108 @@
           "urlName" : "egypte" , "img":"egypte.jpg",
           "alpha":"eg",
           "teamId":11,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"45",
+          "worldCupPastParticipation":"2",
+          "worldCupPast":"14",
+          "bestResult":"Premier tour 1934, 1990",
+          "firstRound":"2",
+          "semiFinals":"0",
+          "finals":"0",
+          "titles":"0",
+          "coachName":"HÉCTOR CÚPER",
+          "coachDescription":"Ancien entraîneur de Valence et de l'Inter, Cuper a été nommé à la tête de l'Égypte en mars 2015, avant de mener les Pharaons en finale de la Coupe d'Afrique des Nations de la CAF 2017. L'Argentin a ensuite offert au pays sa première qualification pour la Coupe du Monde depuis 1990, après avoir obtenu la première place du Groupe E.",
+          "coachImg":"cuper.jpg",
           "team":{
              "goalKeepers":[
+                 "S. EKRAMY",
+                 "M. EL SHENAY",
+                 "E. EL-HADARY"
  
              ],
              "defenders":[
+                 "M. ABDEL-SHAFI",
+                 "A. ASHRAF",
+                 "A. FATHI",
+                 "O. GABER",
+                 "A. GABR",
+                 "M. H. EL-WENSH",
+                 "A. HEGAZY",
+                 "S. SAMIR"
  
              ],
              "midfieldrs":[
+                 "A. ELMOHAMADY",
+                 "M. ELNENY",
+                 "T. HAMED",
+                 "M. T. TREZEGUET",
+                 "M. KAHRABA",
+                 "S. MORSY",
+                 "M. SALAH",
+                 "R. SOBHI",
+                 "A. WARDA"
  
              ],
              "forwards":[
+                 "M. S. ABDELRAZEK",
+                 "M. MOHSEN",
+                 "A. SAID"
  
              ]
           },
-          "teamImg":""
+          "teamImg":"egypteTeam.jpg"
        },
        {
           "name":"Espagne",
           "urlName" : "espagne" , "img":"espagne.jpg",
           "alpha":"es",
           "teamId":12,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"10",
+          "worldCupPastParticipation":"14",
+          "worldCupPast":"18",
+          "bestResult":"Vainqueur 2010",
+          "firstRound":"14",
+          "semiFinals":"2",
+          "finals":"1",
+          "titles":"1",
+          "coachName":"FERNANDO HIERRO",
+          "coachDescription":"Hierro, meilleur buteur (29 réalisations) parmi les défenseurs dans l'histoire de l'équipe d'Espagne, est devenu sélectionneur de la Roja de manière assez inespérée à deux jours du coup d'envoi de Russie 2018. Le remplaçant de Julen Lopetegui affiche une solide expérience en Coupe du Monde de la FIFA. Il a en effet été capitaine de l'équipe d'Espagne aux éditions 1994, 1998 et 2002 de la compétition.",
+          "coachImg":"hierro.jpg",
           "team":{
              "goalKeepers":[
- 
+                 "K. ARRIZABALAGA",
+                 "D. DE GEA",
+                 "J. REINA",
+                  
              ],
              "defenders":[
+                 "J. ALBA",
+                 "C. AZPILICUETA",
+                 "D. CARVAJAL",
+                 "N. FERNANDEZ",
+                 "N. MONREAL",
+                 "G. PIQUE",
+                 "S. RAMOS",
+                 "T. ALCANTARA",             
  
              ],
              "midfieldrs":[
- 
+                "M. ASENSIO",
+                "S. BUSQUETS",
+                "A. INESTA",
+                "ISCO",
+                "KOKE",
+                "S. NIGUEZ",
+                "A. ODRIOZOLA",
+                "D. SILVA",
+                "L. VAZQUEZ"                
              ],
              "forwards":[
- 
+                "I. ASPAS",
+                "D. COSTA",
+                "RODRIGO" 
              ]
           },
-          "teamImg":""
+          "teamImg":"espagneTeam.jpg"
        },
        {
           "name":"France",
@@ -712,32 +756,52 @@
           "urlName" : "japon" , "img":"japon.jpg",
           "alpha":"jp",
           "teamId":15,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"22",
+          "worldCupPastParticipation":"0",
+          "worldCupPast":"13",
+          "bestResult":"---",
+          "firstRound":"0",
+          "semiFinals":"0",
+          "finals":"0",
+          "titles":"0",
+          "coachName":"HEIMIR HALLGRÍMSSON",
+          "coachDescription":"Ancien adjoint de Lars Lagerback, ce dentiste de formation est à l'origine de l'ascension de l'Islande. Il a officié aux côtés de Lagerback pendant l'Euro 2016, avant de mener seul son pays vers sa première Coupe du Monde. Première du Groupe I, l'Islande est la plus petite nation à valider son billet.",
+          "coachImg":"hallgrimsson.jpg",
           "team":{
              "goalKeepers":[
- 
+                 "H. T. HALLDORSSON",
+                 "R. A. RUNARSSON",
+                 "F. SCHRAM" 
              ],
              "defenders":[
- 
+                 "H. EYJOLFSSON",
+                 "S. INGASON",
+                 "H. MAGNUSSON",
+                 "B. SAEVARSSON",
+                 "R. SIGURDSSON",
+                 "A. SKULASON",
+                 "A. TRAUSTASON"    
              ],
              "midfieldrs":[
- 
+                "K. ARNASON",
+                "B. BJARNASON",
+                "S. FRIDJONSSON",
+                "R. GISLASON",
+                "A. GUNNARSSON",
+                "E. ALLFREDSSON",
+                "G. SIGURDSSON",
+                "O. SKULASON"     
              ],
              "forwards":[
+                "J. BODVARSSON",
+                "A. FINNBOGASON",
+                "A. GUDMUNDSON",
+                "J. GUDMONDSSON",
+                "B. SIGURDARSON"
  
              ]
           },
-          "teamImg":""
+          "teamImg":"islandeTeam.jpg"
        },
        {
           "name":"Maroc",
