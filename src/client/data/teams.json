@@ -635,7 +635,7 @@
              "goalKeepers":[
                  "K. ARRIZABALAGA",
                  "D. DE GEA",
-                 "J. REINA",
+                 "J. REINA"
                   
              ],
              "defenders":[
@@ -646,7 +646,7 @@
                  "N. MONREAL",
                  "G. PIQUE",
                  "S. RAMOS",
-                 "T. ALCANTARA",             
+                 "T. ALCANTARA"             
  
              ],
              "midfieldrs":[
@@ -1000,32 +1000,50 @@
           "urlName" : "portugal" , "img":"portugal.jpg",
           "alpha":"pt",
           "teamId":22,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"4",
+          "worldCupPastParticipation":"6",
+          "worldCupPast":"20",
+          "bestResult":"3ème place 1966",
+          "firstRound":"6",
+          "semiFinals":"2",
+          "finals":"0",
+          "titles":"0",
+          "coachName":"FERNANDO SANTOS",
+          "coachDescription":"Santos a été nommé en 2014, après un passage réussi à la tête de la Grèce, qu'il a menée en quarts de finale de l'Euro 2012 et en huitièmes de finale de Brésil 2014. Le technicien lisboète a ensuite offert au Portugal son premier titre dans un grand tournoi en remportant l'Euro 2016. Son équipe s'est ensuite qualifiée pour Russie 2018.",
+          "coachImg":"santos.jpg",
           "team":{
              "goalKeepers":[
- 
+                "BETO",
+                "A. LOPEZ",
+                "R. PATRICIO"
              ],
              "defenders":[
- 
+                "B. ALVEZS",
+                "R. DIAS",
+                "J. M. FONTE",
+                "R. GUERREIRO",
+                "M. RUI",
+                "PEPE",
+                "R. PEREIRA",
+                "C. SOARES"
              ],
              "midfieldrs":[
- 
+                "W. CARVALHO",
+                "B. FERNADES",
+                "J. MARIO",
+                "J. MOUTINHO",
+                "R. QUARESMA",
+                "A. SILVA",
+                "B. SILVA"
              ],
              "forwards":[
- 
+                "G. GUEDES",
+                "G. MARTINS",
+                "C. RONALDO",
+                "A. SILVA"
              ]
           },
-          "teamImg":""
+          "teamImg":"Portugal-2018.jpg"
        },
        {
           "name":"République de Corée",
@@ -1033,7 +1051,7 @@
           "alpha":"kr",
           "teamId":23,
           "fifaRanking":"",
-          "worldCupPastParticipation":"",
+          "worldCupPastParticipation":"9",
           "worldCupPast":"",
           "bestResult":"",
           "firstRound":"",
@@ -1042,54 +1060,92 @@
           "titles":"",
           "coachName":"",
           "coachDescription":"",
-          "coachImg":"",
+          "coachImg":"shin.jpg",
           "team":{
              "goalKeepers":[
- 
+                "H-W. CHO",
+                "J-H. KIM.",
+                "S-G. Kim"
              ],
              "defenders":[
- 
+                "C. HONG",
+                "H-S. JANG",
+                "S-H. JUNG",
+                "M-W. KIM",
+                "Y-G. KIM",
+                "Y. LEE",
+                "B-S. OH",
+                "J-H. PARK",
+                "Y-S. YUN"
              ],
              "midfieldrs":[
- 
+                "Y-H. GO",
+                "S6J. JU",
+                "S-Y. KI",
+                "J-C. KOO",
+                "J-S. LEE",
+                "S-W. LEE",
+                "S-M. MOON"
              ],
              "forwards":[
- 
+                "H-C. HWANG",
+                "W-Y. JUNG",
+                "S-W. KIM",
+                "H-M SON"
              ]
           },
-          "teamImg":""
+          "teamImg":"korea-team.jpg"
        },
        {
           "name":"RI Iran",
           "urlName" : "ri-iran" , "img":"ri-iran.jpg",
           "alpha":"ir",
           "teamId":24,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"37",
+          "worldCupPastParticipation":"4",
+          "worldCupPast":"10",
+          "bestResult":"Premier tour 1978, 1998, 2006, 2014",
+          "firstRound":"4",
+          "semiFinals":"0",
+          "finals":"0",
+          "titles":"0",
+          "coachName":"CARLOS QUEIROZ",
+          "coachDescription":"Le très expérimenté technicien portugais participera à sa troisième Coupe du Monde, après avoir dirigé son pays en 2010 et l'Iran en 2014. Il a également remporté deux Coupes du Monde U-20 de la FIFA avec le Portugal. Sous son impulsion, l'Iran a été le premier à se qualifier en Asie, après un quasi sans-faute.",
+          "coachImg":"queiroz.jpg",
           "team":{
              "goalKeepers":[
- 
+                "A. ABEDZADEH",
+                "A. BEIRANDVAND",
+                "M. R. MAZAHERI"
              ],
              "defenders":[
- 
+                "R. CHESHMI",
+                "M. HOSSEINI",
+                "M. R. KHANZADEH",
+                "M. MOHAMMADI",
+                "P. MONTAZERI",
+                "M. POURALIGANJI",
+                "R. REZAEIJAN"
              ],
              "midfieldrs":[
- 
+                "V. AMIRI",
+                "O. EBRAHIMI",
+                "S. EZATOLAHI",
+                "S. GHODDOS",
+                "E. HAJSAFI",
+                "M. TORABI"
              ],
              "forwards":[
- 
+                "K. ANSARIFARAD",
+                "S. AZMOUN",
+                "A. DEJAGAH",
+                "R. GHOOCHANNEIJHAD",
+                "A. JAHANBAKHSH",
+                "M. S. SOLEIMANI",
+                "M. TAREMI"
              ]
           },
-          "teamImg":""
+          "teamImg":"Iran-national-team.jpg"
        },
        {
           "name":"Russie",
