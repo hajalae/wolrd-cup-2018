@@ -1050,16 +1050,16 @@
           "urlName" : "republique-de-coree" , "img":"republique-de-coree.jpg",
           "alpha":"kr",
           "teamId":23,
-          "fifaRanking":"",
+          "fifaRanking":"61",
           "worldCupPastParticipation":"9",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
+          "worldCupPast":"12",
+          "bestResult":"Demi finale 2002",
+          "firstRound":"7",
+          "semiFinals":"1",
+          "finals":"1",
+          "titles":"0",
+          "coachName":"TAE-YONG SHIN",
+          "coachDescription":"Tae-Yong Shin est un joueur de football international sud-coréen, qui évoluait au poste de milieu de terrain, avant de devenir entraîneur.",
           "coachImg":"shin.jpg",
           "team":{
              "goalKeepers":[
@@ -1080,7 +1080,7 @@
              ],
              "midfieldrs":[
                 "Y-H. GO",
-                "S6J. JU",
+                "S-J. JU",
                 "S-Y. KI",
                 "J-C. KOO",
                 "J-S. LEE",
@@ -1091,7 +1091,7 @@
                 "H-C. HWANG",
                 "W-Y. JUNG",
                 "S-W. KIM",
-                "H-M SON"
+                "H-M. SON"
              ]
           },
           "teamImg":"korea-team.jpg"
@@ -1152,224 +1152,357 @@
           "urlName" : "russie" , "img":"russie.jpg",
           "alpha":"ru",
           "teamId":25,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"70",
+          "worldCupPastParticipation":"10",
+          "worldCupPast":"15",
+          "bestResult":"Quatrième place 1966",
+          "firstRound":"10",
+          "semiFinals":"1",
+          "finals":"0",
+          "titles":"0",
+          "coachName":"STANISLAV CHERCHESOV",
+          "coachDescription":"Ancien gardien de l'URSS et de la Russie, Cherchesov a été sélectionné pour les Coupes du Monde 1994 et 2002, avant de s'asseoir sur le banc en 2016. Passé par le Dynamo Moscou et le Legia Varsovie, il a mené son pays durant la Coupe des Confédérations de la FIFA 2017.",
+          "coachImg":"cherchesov.jpg",
           "team":{
              "goalKeepers":[
- 
+                "I. AKINFEEV",
+                "V. GABULOV",
+                "A. LUNEV"
              ],
              "defenders":[
- 
+                "M. FERNANDES",
+                "V. GRANAT",
+                "S. IGNASHEVITCH",
+                "F. KUDRYASHOV",
+                "I. KUTEPOV",
+                "A. SEMENOV",
+                "I. SMOLNIKOV"
              ],
              "midfieldrs":[
- 
+                "D. CHERYSHEV",
+                "A. DZAGOEV",
+                "A. EROKHIN",
+                "Y. GAZINSKIY",
+                "A. GOLOVIN",
+                "D. KUZYAEV",
+                "A. MIRANCHUK",
+                "A. SAMEDOV",
+                "Y. ZHIRKOV",
+                "R. ZOBNIN"
              ],
              "forwards":[
- 
+                "A. DZYUBA",
+                "A. MIRANCHUK",
+                "F. SMOLOV"
              ]
           },
-          "teamImg":""
+          "teamImg":"team-russia.jpg"
        },
        {
           "name":"Sénégal",
           "urlName" : "senegal" , "img":"senegal.jpg",
           "alpha":"sn",
           "teamId":26,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"27",
+          "worldCupPastParticipation":"1",
+          "worldCupPast":"12",
+          "bestResult":"Quarts de finale 2002",
+          "firstRound":"1",
+          "semiFinals":"0",
+          "finals":"0",
+          "titles":"0",
+          "coachName":"ALIOU CISSÉ",
+          "coachDescription":"Cissé était capitaine de l'équipe du Sénégal qui s'était invitée en quarts de finale de la Coupe du Monde pour ses grands débuts, en 2002. Depuis sa nomination en 2015, il fait l'unanimité. Ses Lions de la Teranga sont d'ailleurs restés invaincus dans le Groupe D.",
+          "coachImg":"cisse.jpg",
           "team":{
              "goalKeepers":[
- 
+                "A. DIALLO",
+                "A. GOMIS",
+                "K. N'DIAYE"
              ],
              "defenders":[
- 
+                "S. CISS",
+                "L. GASSAMA",
+                "S. K. MBODJI",
+                "K. KOULIBALY",
+                "C. KOUYATE",
+                "A. N'DIAYE",
+                "Y. SABALY",
+                "M. WAGUE"
              ],
              "midfieldrs":[
- 
+                "I. GUEYE",
+                "S. MANE",
+                "C. N'DOYE",
+                "S. SANE",
+                "I. SARR"
              ],
              "forwards":[
- 
+                "K. BALDE",
+                "M. B. DIOUF",
+                "M. KONATE",
+                "P. B. N'DIAYE",
+                "M. NIANG",
+                "D. SAKHO",
+                "M. SOW"
              ]
           },
-          "teamImg":""
+          "teamImg":"team-senegal.jpg"
        },
        {
           "name":"Serbie",
           "urlName" : "serbie" , "img":"serbie.jpg",
           "alpha":"rs",
           "teamId":27,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"34",
+          "worldCupPastParticipation":"11",
+          "worldCupPast":"19",
+          "bestResult":"Quatrième place 1930, 1962",
+          "firstRound":"11",
+          "semiFinals":"2",
+          "finals":"0",
+          "titles":"0",
+          "coachName":"MLADEN KRSTAJIC",
+          "coachDescription":"Ancien défenseur international convoqué pour la Coupe du Monde 2006, Krstajic assure l'intérim à la tête de la sélection depuis le limogeage de Slavoljub Muslin en octobre 2017. Il faisait auparavant partie des adjoints du sélectionneur.",
+          "coachImg":"mladen.jpg",
           "team":{
              "goalKeepers":[
- 
+                "M. DMITROVIC",
+                "P. RAJKOVIC",
+                "V. STOJKOVIC"
              ],
              "defenders":[
- 
+                "B. IVANOVIC",
+                "A. KOLAROV",
+                "N. MILENKOVIC",
+                "M. RODIC",
+                "A. RUKAVINA",
+                "U. SPAJIC",
+                "D. TUSIC",
+                "M. VELKOVIC"
              ],
              "midfieldrs":[
- 
+                "M. GRUJIC",
+                "F. KOSTIC",
+                "N. MATIC",
+                "S. MILINOVIC-SAVIC",
+                "L. MILIVOJEVIC",
+                "N. RADONJIC",
+                "D. TADIC"
              ],
              "forwards":[
- 
+                "A. ZIVKOVIC",
+                "L. JOVIC",
+                "A. LJAJIC",
+                "A. MITROVIC",
+                "A. PRIJOVIC"
              ]
           },
-          "teamImg":""
+          "teamImg":"serbia-team.jpg"
        },
        {
           "name":"Suède",
           "urlName" : "suede" , "img":"suede.jpg",
           "alpha":"se",
           "teamId":28,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"24",
+          "worldCupPastParticipation":"11",
+          "worldCupPast":"19",
+          "bestResult":"Deuxième place 1958",
+          "firstRound":"11",
+          "semiFinals":"4",
+          "finals":"1",
+          "titles":"0",
+          "coachName":"JANNE ANDERSSON",
+          "coachDescription":"Andersson est un technicien très expérimenté, qui s'est fait connaître en menant l'IFK Norrköping au titre de champion de Suède en 2015. Nommé à la tête de l'équipe nationale avant l'Euro 2016, il a rajeuni le groupe avant de remporter un succès historique sur l'Italie en barrage de la Coupe du Monde.",
+          "coachImg":"janne.jpg",
           "team":{
              "goalKeepers":[
- 
+                "K. J. JOHNSON",
+                "K. NORDFELDT",
+                "R. OLSEN"
              ],
              "defenders":[
- 
+                "L. AUGUSTINSON",
+                "A. GRANQVIST",
+                "F. HELANDER",
+                "P. JANSSON",
+                "E. KRAFTH",
+                "V. N. LINDELOF",
+                "M. LUSTIG",
+                "M. OLSSON"
              ],
              "midfieldrs":[
- 
+                "V. CLAESSON",
+                "J. DURMAZ",
+                "A. EKDAL",
+                "E. FORSBERG",
+                "O. HILIJEMARK",
+                "S. LARSSON",
+                "M. ROHDEN",
+                "G. J. SVENSON"
              ],
              "forwards":[
- 
+                "M. BERG",
+                "J. GUIDETTI",
+                "I. K. THELIN",
+                "O. TOIVONEN"
              ]
           },
-          "teamImg":""
+          "teamImg":"team-suede.jpg"
        },
        {
           "name":"Suisse",
           "urlName" : "suisse" , "img":"suisse.jpg",
           "alpha":"ch",
           "teamId":29,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"6",
+          "worldCupPastParticipation":"10",
+          "worldCupPast":"19",
+          "bestResult":"Quarts de finale 1934, 1938, 1954",
+          "firstRound":"10",
+          "semiFinals":"0",
+          "finals":"0",
+          "titles":"0",
+          "coachName":"VLADIMIR PETKOVIC",
+          "coachDescription":"Né en Bosnie, le sélectionneur suisse s'apprête à faire ses débuts dans un tournoi FIFA. Nommé à la tête de La Nati après la Coupe du Monde 2014, il a atteint les 8es de finale de l'EURO 2016 et obtenu sa qualification pour Russie 2018 en barrage, contre l'Irlande du Nord.",
+          "coachImg":"petkovic.jpg",
           "team":{
              "goalKeepers":[
- 
+                "R. BURKI",
+                "Y. MVONGO",
+                "Y. SOMMER"
              ],
              "defenders":[
- 
+                "M. AKANJI",
+                "J. DJOUROU",
+                "N. ELVEDI",
+                "M. LANG",
+                "S. LICHTEINER",
+                "F. MOUBENDJE",
+                "R. RODRIGUEZ",
+                "F. SCHAR"
              ],
              "midfieldrs":[
- 
+                "V. BEHRAMI",
+                "B. DZEMAILI",
+                "G. FERNANDEZ",
+                "R. FREULER",
+                "X. SHAQIRI",
+                "G. XHAKA",
+                "D. ZAKARIA",
+                "S. ZUBER"
              ],
              "forwards":[
- 
+                "J. DRMIC",
+                "B. D. EMBOLO",
+                "M. GAVRANOVIC",
+                "H. SEFEROVIC"
              ]
           },
-          "teamImg":""
+          "teamImg":"swiss-team.jpg"
        },
        {
           "name":"Tunisie",
           "urlName" : "tunisie" , "img":"tunisie.jpg",
           "alpha":"tn",
           "teamId":30,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"21",
+          "worldCupPastParticipation":"4",
+          "worldCupPast":"14",
+          "bestResult":"Premier tour 1978, 1998, 2002, 2006",
+          "firstRound":"4",
+          "semiFinals":"0",
+          "finals":"0",
+          "titles":"0",
+          "coachName":"NABIL MAÂLOUL",
+          "coachDescription":"Incontournable en sélection dans les années 80 et 90, Maaloul a pris ses fonctions en avril 2017. L'ancien milieu est un technicien réputé depuis son triomphe en Ligue des champions de la CAF 2011 avec l'Espérance de Tunis. Grâce à lui, la Tunisie a retrouvé la Coupe du Monde après 12 ans d'absence.",
+          "coachImg":"maaloul.jpg",
           "team":{
              "goalKeepers":[
- 
+                "F. BEN MUSTAPHA",
+                "M. HASSEN",
+                "A. MATHLOUTHI"
              ],
              "defenders":[
- 
+                "R. BEDOUI",
+                "S. BEN YOUSSEF",
+                "Y. BENALOUANE",
+                "D. BRONN",
+                "O. HADDADI",
+                "A. MAALOUL",
+                "Y. MERIAH",
+                "H. NAGGUEZ"
              ],
              "midfieldrs":[
- 
+                "M. A. BEN AMOR",
+                "G. CHAALALI",
+                "A. KHALIL",
+                "S-E. KHAOUI",
+                "W. KHAZRI",
+                "F. SASSI",
+                "E. SKHIRI"
              ],
              "forwards":[
- 
+                "A. BADRI",
+                "F. BEN YOUSSEF",
+                "S. KHALIFA",
+                "N. SLITI",
+                "B. SRAFI"
              ]
           },
-          "teamImg":""
+          "teamImg":"tunisia-tream.jpg"
        },
        {
           "name":"Uruguay",
           "urlName" : "uruguay" , "img":"uruguay.jpg",
           "alpha":"uy",
           "teamId":31,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"14",
+          "worldCupPastParticipation":"12",
+          "worldCupPast":"16",
+          "bestResult":"Vainqueur 1930, 1950",
+          "firstRound":"12",
+          "semiFinals":"5",
+          "finals":"2",
+          "titles":"2",
+          "coachName":"OSCAR TABÁREZ",
+          "coachDescription":"Tabarez est une institution en Uruguay : il a dirigé son pays lors d'Italie 1990, d'Afrique du Sud 2010 et de Brésil 2014. On lui doit notamment la victoire de la Celeste en Copa America 2011. El Maestro est un technicien au tempérament offensif, au sens tactique aiguisé et très proche de ses joueurs.",
+          "coachImg":"tabarez.jpg",
           "team":{
              "goalKeepers":[
- 
+                "M. CAMPANA",
+                "F. MUSLERA",
+                "M. SILVA"
              ],
              "defenders":[
- 
+                "M. CACERES",
+                "S. COATES",
+                "J. GIMENEZ",
+                "D. GODIN",
+                "M. PEREIRA",
+                "G. SILVA",
+                "G. VARELA"
              ],
              "midfieldrs":[
- 
+                "R. BENTANCUR",
+                "G. DE ARRASCAETA",
+                "D. LAXALT",
+                "N. NANDEZ",
+                "C. RODRIGUEZ",
+                "C. SANCHEZ",
+                "L. TORREIRA",
+                "J. URRETAVISCAYA",
+                "M. VECINO"
              ],
              "forwards":[
- 
+                "E. CAVANI",
+                "M. GOMEZ",
+                "C. STUANI",
+                "L. SUAREZ"
              ]
           },
-          "teamImg":""
+          "teamImg":"uruguay-team.jpg"
        }
     ]
  }
