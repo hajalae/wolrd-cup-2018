@@ -724,38 +724,6 @@
           "urlName" : "islande" , "img":"islande.jpg",
           "alpha":"is",
           "teamId":14,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
-          "team":{
-             "goalKeepers":[
- 
-             ],
-             "defenders":[
- 
-             ],
-             "midfieldrs":[
- 
-             ],
-             "forwards":[
- 
-             ]
-          },
-          "teamImg":""
-       },
-       {
-          "name":"Japon",
-          "urlName" : "japon" , "img":"japon.jpg",
-          "alpha":"jp",
-          "teamId":15,
           "fifaRanking":"22",
           "worldCupPastParticipation":"0",
           "worldCupPast":"13",
@@ -769,18 +737,20 @@
           "coachImg":"hallgrimsson.jpg",
           "team":{
              "goalKeepers":[
-                 "H. T. HALLDORSSON",
-                 "R. A. RUNARSSON",
-                 "F. SCHRAM" 
+                "H. T. HALLDORSSON",
+                "R. A. RUNARSSON",
+                "F. SCHRAM" 
+ 
              ],
              "defenders":[
-                 "H. EYJOLFSSON",
-                 "S. INGASON",
-                 "H. MAGNUSSON",
-                 "B. SAEVARSSON",
-                 "R. SIGURDSSON",
-                 "A. SKULASON",
-                 "A. TRAUSTASON"    
+                "H. EYJOLFSSON",
+                "S. INGASON",
+                "H. MAGNUSSON",
+                "B. SAEVARSSON",
+                "R. SIGURDSSON",
+                "A. SKULASON",
+                "A. TRAUSTASON"
+ 
              ],
              "midfieldrs":[
                 "K. ARNASON",
@@ -790,7 +760,8 @@
                 "A. GUNNARSSON",
                 "E. ALLFREDSSON",
                 "G. SIGURDSSON",
-                "O. SKULASON"     
+                "O. SKULASON"  
+ 
              ],
              "forwards":[
                 "J. BODVARSSON",
@@ -804,196 +775,376 @@
           "teamImg":"islandeTeam.jpg"
        },
        {
+          "name":"Japon",
+          "urlName" : "japon" , "img":"japon.jpg",
+          "alpha":"jp",
+          "teamId":15,
+          "fifaRanking":"61",
+          "worldCupPastParticipation":"5",
+          "worldCupPast":"14",
+          "bestResult":"Huitièmes de finale 2002, 2010",
+          "firstRound":"5",
+          "semiFinals":"0",
+          "finals":"0",
+          "titles":"0",
+          "coachName":"AKIRA NISHINO",
+          "coachDescription":"L'expérience d'Akira Nishino en Coupe du Monde de la FIFA se résume à quatre matches de qualification avec le Japon en 1977. Mais l'ancien milieu de terrain n'est pas un inconnu sur la scène internationale, puisqu'il avait dirigé les Samouraïs Bleus au Tournoi Olympique de Football Masculin, Atlanta 1996, et mené Gamba Osaka jusqu'en demi-finale de la Coupe du Monde des Clubs de la FIFA 2008.",
+          "coachImg":"nishino.jpg",
+          "team":{
+             "goalKeepers":[
+                 "M. HIGASHIGUCHI",
+                 "E. KAWASHIMA",
+                 "K. NAKAMURA",
+                                  
+             ],
+             "defenders":[
+                "W. ENDO",
+                "T. MAKINO",
+                "Y. NAGATOMO",
+                "G. SAKAI",
+                "H. SAKAI",
+                "G; SHOJI",
+                "N. UEDA",
+                "M. YOSHIDA"     
+             ],
+             "midfieldrs":[
+                 "M. HASEBE",
+                 "K. HONDA",
+                 "T. INUI",
+                 "S. KAGAWA",
+                 "Y. MUTO",
+                 "R. OSHIMA",
+                 "G. SHIBASAKI",
+                 "T. USAMI",
+                 "H. YAMAGUCHI"
+                   
+             ],
+             "forwards":[
+                 "G. HARAGUCHI",
+                 "S. OKAZAKI",
+                 "Y. OSAKO"             
+              ]
+          },
+          "teamImg":"japonTeam.jpg"
+       },
+       {
           "name":"Maroc",
           "urlName" : "maroc" , "img":"maroc.jpg",
           "alpha":"ma",
           "teamId":16,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"41",
+          "worldCupPastParticipation":"4",
+          "worldCupPast":"14",
+          "bestResult":"Huitièmes de finale 1986",
+          "firstRound":"0",
+          "semiFinals":"0",
+          "finals":"0",
+          "titles":"0",
+          "coachName":"HERVÉ RENARD",
+          "coachDescription":"Premier entraîneur à remporter la Coupe d’Afrique des Nations de la CAF avec deux pays, Renard jouit d'une grande réputation sur tout le continent et dans le monde. Il a pris les commandes du Maroc en 2016 et mené les Lions de l'Atlas à leur première Coupe du Monde depuis 1998.",
+          "coachImg":"renard.jpg",
           "team":{
              "goalKeepers":[
- 
+                 "Y. BOUNOU",
+                 "M. EL KAJOUI",
+                 "A. TAGNAOUTI",
+                  
              ],
              "defenders":[
- 
+                 "M. BENATIA",
+                 "M. DA COSTA",
+                 "A. HAKIMI",
+                 "R. SAISS" 
              ],
              "midfieldrs":[
+                 "S. AMRABAT",
+                 "Y. BENNASSER",
+                 "Y. BELHANDA",
+                 "M. BOUSSOUFA",
+                 "N. DIRAR",
+                 "K. EL AHMADI",
+                 "F. FAJR",
+                 "A. HARIT",
+                 "H. MENDYL",
+                 "H. ZIYECH",
+                        
  
              ],
              "forwards":[
- 
+                 "A. BOUHADDOUZ",
+                 "K. BOUTAIB",
+                 "A. EL KAABI",
+                 "Y. EN-NESRYRI" 
              ]
           },
-          "teamImg":""
+          "teamImg":"marocTeam.jpg"
        },
        {
           "name":"Mexique",
           "urlName" : "mexique" , "img":"mexique.jpg",
           "alpha":"mx",
           "teamId":17,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"15",
+          "worldCupPastParticipation":"15",
+          "worldCupPast":"15",
+          "bestResult":"Quarts de finale 1970, 1986",
+          "firstRound":"15",
+          "semiFinals":"0",
+          "finals":"0",
+          "titles":"0",
+          "coachName":"JUAN CARLOS OSORIO",
+          "coachDescription":"Osorio a dirigé plusieurs clubs et connu le succès avec l'Atletico Nacional, avant d'être nommé à la tête du Mexique en 2015. Le Colombien a parfaitement géré le parcours de son équipe en qualification. El Tri a terminé en tête de la CONCACAF et validé son billet pour la Russie à trois journées de la fin.",
+          "coachImg":"osorio.jpg",
           "team":{
              "goalKeepers":[
- 
+                 "J. CORONA",
+                 "G.OCHOA",
+                 "A. TALAVERA" 
              ],
              "defenders":[
+                 "H. AYALA",
+                 "J. GALLARDO",
+                 "R. MARQUEZ",
+                 "H. MORENO",
+                 "C. SALCEDO"
  
              ],
              "midfieldrs":[
+                 "J. M. CORONA",
+                 "J. DOS SANTOS",
+                 "M. FABIAN",
+                 "A. GUARDADO",
+                 "E. GUITIERREZ",
+                 "H. HERRERA",
+                 "M. LAYUN"
  
              ],
              "forwards":[
- 
+                 "E. ALVAREZ",
+                 "J. AQUINO",
+                 "G. DOS SANTOS",
+                 "J. HERNANDEZ",
+                 "R. JIMENEZ",
+                 "H. LOZANO",
+                 "O. PARALTA",
+                 "C. VELA" 
              ]
           },
-          "teamImg":""
+          "teamImg":"mexiqueTeam.jpg"
        },
        {
           "name":"Nigeria",
           "urlName" : "nigeria" , "img":"nigeria.jpg",
           "alpha":"ng",
           "teamId":18,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"48",
+          "worldCupPastParticipation":"5",
+          "worldCupPast":"13",
+          "bestResult":"Huitièmes de finale 1994, 1998, 2014",
+          "firstRound":"5",
+          "semiFinals":"0",
+          "finals":"0",
+          "titles":"0",
+          "coachName":"GERNOT ROHR",
+          "coachDescription":"Fort de ses passages au Gabon, au Niger et au Burkina Faso, Rohr est l'un des techniciens les plus expérimentés d'Afrique. Dès son arrivée en août 2016, l'Allemand a remis les Super Eagles sur les bons rails. Le Nigeria est devenu le premier pays d'Afrique à valider son billet pour la Russie, à une journée du terme.",
+          "coachImg":"rohr.jpg",
           "team":{
              "goalKeepers":[
- 
+                 "D. AKPEYI",
+                 "I. EZENWA",
+                 "F. UZOHO",
+                  
              ],
              "defenders":[
- 
+                 "G. AWAZIEM",
+                 "L. BALOGUN",
+                 "T. EBUEHI",
+                 "E. ECHIEJILE",
+                 "B. IDOWU",
+                 "O. W. NDIDI",
+                 "K. OMERUO",
+                 "A. SHEHU",
+                 "W. TROOST-EKONG"
              ],
              "midfieldrs":[
+                 "O. ETEBO",
+                 "J. OBI",
+                 "J. OBI MIKEL",
+                 "J. OGU",
+                 "O. ONAZI"
  
              ],
              "forwards":[
- 
+                 "O. IGHALO",
+                 "K. IHEANACHO",
+                 "A. IWOBI",
+                 "V. MOSES",
+                 "A. MUSA",
+                 "S. NWANHKWO"
              ]
           },
-          "teamImg":""
+          "teamImg":"nigeriaTeam.jpg"
        },
        {
           "name":"Panama",
           "urlName" : "panama" , "img":"panama.jpg",
           "alpha":"pa",
           "teamId":19,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"55",
+          "worldCupPastParticipation":"0",
+          "worldCupPast":"11",
+          "bestResult":"---",
+          "firstRound":"0",
+          "semiFinals":"0",
+          "finals":"0",
+          "titles":"0",
+          "coachName":"HERNÁN DARÍO GÓMEZ",
+          "coachDescription":"Nommé début 2014, le Colombien Hernan Dario Gomez est entré dans l'histoire en menant le Panama à sa première Coupe du Monde. El Bolillo ("la Matraque") n'a pourtant rien d'un novice à ce niveau, lui qui a déjà dirigé la Colombie en 1998 et l'Équateur en 2002.",
+          "coachImg":"gomez.jpg",
           "team":{
              "goalKeepers":[
- 
+                 "J. CALDERON",
+                 "J. PENEDO",
+                 "A. RODRIGUEZ",
+                
              ],
              "defenders":[
- 
+                "F. BALOY",
+                "K. CUMMINGS",
+                "E. DAVIS",
+                "F. ESCOBAR",
+                "A. MACHADO",
+                "M. MURILLO",
+                "L. OVALLE",
+                "R. TORRES" 
              ],
              "midfieldrs":[
- 
+                "R. AVILA",
+                "E. Y. BARCENAS",
+                "A. COOPER",
+                "A. GODOY",
+                "G. GOMEZ",
+                "J. L. RODRIGUEZ"
              ],
              "forwards":[
- 
+                 "A. ARROYO",
+                 "I. DIAZ",
+                 "B. PEREZ",
+                 "V. PIMENTEL",
+                 "L. TEJADA",
+                 "G. TORRES"
              ]
           },
-          "teamImg":""
+          "teamImg":"panamaTeam.jpg"
        },
        {
           "name":"Pérou",
           "urlName" : "perou" , "img":"perou.jpg",
           "alpha":"pe",
           "teamId":20,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"11",
+          "worldCupPastParticipation":"4",
+          "worldCupPast":"17",
+          "bestResult":"Quarts de finale 1970, 1978",
+          "firstRound":"4",
+          "semiFinals":"0",
+          "finals":"0",
+          "titles":"0",
+          "coachName":"RICARDO GARECA",
+          "coachDescription":"Ancien international argentin, Gareca a posé ses valises au Pérou après des expériences dans divers clubs sud-américains. Celui que l'on surnomme El Tigre est entré dans l'histoire en offrant à La Blanquirroja sa première qualification pour la Coupe du Monde depuis 36 ans.",
+          "coachImg":"gareca.jpg",
           "team":{
              "goalKeepers":[
- 
+                 "C. CACEDA",
+                 "J. CARVALLO",
+                 "P. GALLESE"
              ],
              "defenders":[
- 
+                "M. ARAUJO",
+                "A. CORZO",
+                "C. RAMOS",
+                "A. RODRIGUEZ",
+                "R. TAPIA"
+
              ],
              "midfieldrs":[
+                "L. ADVINCULA",
+                "P. AQUINO",
+                "A. CARRILLO",
+                "W. CARTAGENA"
+                "C. CUEVA",
+                "P. HURTADO",
+                "N. LOYOLA",
+                "A. SANTAMARIA",
+                "M. TRAUCO",
+                "Y. YOTUN"
  
              ],
              "forwards":[
+                 "J. FARFAN",
+                 "E. FLORES",
+                 "P. GUERRERO",
+                 "A. POLO",
+                 "R. RUIDIAZ"
  
              ]
           },
-          "teamImg":""
+          "teamImg":"perouTeam.jpg"
        },
        {
           "name":"Pologne",
           "urlName" : "pologne" , "img":"pologne.jpg",
           "alpha":"pl",
           "teamId":21,
-          "fifaRanking":"",
-          "worldCupPastParticipation":"",
-          "worldCupPast":"",
-          "bestResult":"",
-          "firstRound":"",
-          "semiFinals":"",
-          "finals":"",
-          "titles":"",
-          "coachName":"",
-          "coachDescription":"",
-          "coachImg":"",
+          "fifaRanking":"8",
+          "worldCupPastParticipation":"7",
+          "worldCupPast":"17",
+          "bestResult":"Troisième place 1974, 1982",
+          "firstRound":"7",
+          "semiFinals":"2",
+          "finals":"0",
+          "titles":"0",
+          "coachName":"ADAM NAWAŁKA",
+          "coachDescription":"Cet ancien international polonais a représenté son pays en Coupe du Monde 1978, avant de devenir sélectionneur en 2013. Depuis, il a mené son équipe à son premier quart de finale de l'Euro et à sa première Coupe du Monde depuis 2006.",
+          "coachImg":"nawalka.jpg",
           "team":{
              "goalKeepers":[
+                 "B. BIALKOWSKI",
+                 "L. FABIANSKI",
+                 "W. SZCZESNY"
  
              ],
              "defenders":[
- 
+                 "J. BEDNAREK",
+                 "T. R. CIONEK",
+                 "K. GLIK",
+                 "A. JEDRZERJCZYK",
+                 "M. PAZDAN",
+                 "L. PISZCZEK",
+                 "M. RYBUS"
+                  
              ],
              "midfieldrs":[
+                "B. BERESZYNSKI",
+                "J. BLASZCZYKOWSKI",
+                "J. GORALSKI",
+                "K. GROSICKI",
+                "G. KRYCHOWIAK",
+                "R. KURZAWA",
+                "K. LINETTY",
+                "S. PESZKO",
+                "P. ZIELINSKI"
  
              ],
              "forwards":[
+                 "D. KOWNACKI",
+                 "R. LEWANDOWSKI"
+                 "A. MILIK",
+                 "L. TEODORCZYK"
  
              ]
           },
-          "teamImg":""
+          "teamImg":"pologneTeam.jpg"
        },
        {
           "name":"Portugal",
