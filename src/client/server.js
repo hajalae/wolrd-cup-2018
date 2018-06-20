@@ -39,7 +39,29 @@ app.get('/', function(req, res) {
     }
     else
     {
-        res.render('teamsDescription.ejs', {team: teamObject});
+        var options = {
+            host: 'api.football-data.org',
+            port: 80,
+            path: '/v1/competitions/467/fixtures',
+            headers: {'X-Auth-Token' : 'ee1bca07af444f0fa79251b6ed179e32'}
+        }
+        http.get(options, (resp) => {
+            let gamesData = '';
+            
+            resp.on('data', (chunk) => {
+                gamesData += chunk;
+            });
+            
+            resp.on('end', () => {
+                gamesData = JSON.parse(gamesData);
+                directScores(gamesData);
+                var countryGames = getCountryGame(teamObject.englishName);
+                res.render('teamsDescription.ejs', {team: teamObject, countryGames: countryGames, teams: teamsJson});
+            });
+            
+            }).on("error", (err) => {
+            console.log("Error: " + err.message);
+        });
     }
 })
 .get('/course/ranking', function(req, res){
@@ -68,7 +90,28 @@ app.get('/', function(req, res) {
 })
 .get('/course/fixtures', function(req, res){
     res.setHeader('Content-Type', 'text/html');
-    res.render('fixtures.ejs', {games : games, correspondanceId : correspondanceId, teams : teamsJson});
+    var options = {
+        host: 'api.football-data.org',
+        port: 80,
+        path: '/v1/competitions/467/fixtures',
+        headers: {'X-Auth-Token' : 'ee1bca07af444f0fa79251b6ed179e32'}
+    }
+    http.get(options, (resp) => {
+        let gamesData = '';
+        
+        resp.on('data', (chunk) => {
+            gamesData += chunk;
+        });
+        
+        resp.on('end', () => {
+            gamesData = JSON.parse(gamesData);
+            directScores(gamesData);
+            res.render('fixtures.ejs', {games : games, correspondanceId : correspondanceId, teams : teamsJson});
+        });
+        
+        }).on("error", (err) => {
+        console.log("Error: " + err.message);
+    });
 })
 .get('/pronostic', function(req, res){
     res.setHeader('Content-Type', 'text/html');
@@ -91,3 +134,40 @@ app.get('/', function(req, res) {
 });
 
 app.listen(80);
+
+function directScores(data){
+    var nbGames = data.fixtures.length;
+    for(var i=0; i<nbGames; i++)
+    {
+        var gameName = data.fixtures[i].homeTeamName +""+data.fixtures[i].awayTeamName;
+        for(var j=0; j<games.fixtures.length; j++)
+        {
+            let tableGames = games.fixtures[j].games;
+            for(var k=0; k<tableGames.length; k++)
+            {
+                if(gameName === tableGames[k].gameName)
+                {
+                    tableGames[k].result.goalsHomeTeam = data.fixtures[i].result.goalsHomeTeam;
+                    tableGames[k].result.goalsAwayTeam = data.fixtures[i].result.goalsAwayTeam;
+                }
+            }
+        }
+    }
+}
+
+function getCountryGame(countryName)
+{
+    var countryGames = [];
+    for(var j=0; j<games.fixtures.length; j++)
+    {
+        let tableGames = games.fixtures[j].games;
+        for(var k=0; k<tableGames.length; k++)
+        {
+            if(countryName === tableGames[k].homeTeamName || countryName === tableGames[k].awayTeamName)
+            {
+                countryGames.push(tableGames[k])
+            }
+        }
+    }
+    return countryGames;
+}

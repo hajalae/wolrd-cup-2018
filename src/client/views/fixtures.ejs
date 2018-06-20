@@ -9,22 +9,39 @@
     <title>Deroulement de la coupe du monde</title>
 </head>
 <body style="background: url('../public/images/calendrier.jpg') no-repeat center fixed; background-size: cover;">
-    <div class="container bg-white">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/course/fixtures">Calendrier</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/course/ranking">Classements</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/course/direct">Matchs en direct</a>
-                    </li>
-                </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <img src="../public/images/logo.png" style="width: 3%" />
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="/home">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/teams">Equipes</a>
+                </li>
+                <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Déroulé de la coupe du monde
+                          </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="/course/fixtures">Calendrier</a>
+                              <a class="dropdown-item" href="/course/ranking">Classements</a>
+                            </div>
+                      </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pronostic">Pronostic</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contact</a>
+                  </li>
+              </ul>
             </div>
-        </nav>
+          </nav>
+    <br><br><br>
+    <div class="container bg-white">
 
         <table class="table">
         <% for(var i =0 ; i <games.fixtures.length; i++){ %>

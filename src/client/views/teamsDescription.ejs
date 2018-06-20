@@ -7,15 +7,41 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-
-    <div class="text-center">
-    <body class="p-3">
-    <h1 class="display-4"><strong><%= team.name %></strong></h1>
-    <h4><small>Classement FIFA: <%= team.fifaRanking %> </small></h4>
-    </div>
-     
+  </head>    
     
-<div class="container p-4">
+  <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          <img src="../public/images/logo.png" style="width: 3%" />
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="/home">Accueil</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="/teams">Equipes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/course/fixtures">Déroulé de la coupe du monde</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/pronostic">Pronostic</a>
+                </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/contact">Contact</a>
+                </li>
+            </ul>
+          </div>
+        </nav>
+        <br><br><br>
+        <div class="text-center">
+            <body class="p-3">
+            <h1 class="display-4"><strong><%= team.name %></strong></h1>
+            <h4><small>Classement FIFA: <%= team.fifaRanking %> </small></h4>
+            </div>
+    <div class="container p-4">
           
         <div class="row">
             <div class="col">
@@ -56,7 +82,7 @@
              <div class=p-4>
               <button class="btn btn-primary" data-toggle="collapse" data-target="#multiCollapseExample1" data-parent="#myGroup">Le sélectionneur</button>
               <button class="btn btn-primary" data-toggle="collapse" data-target="#multiCollapseExample2" data-parent="#myGroup">Composition de l'équipe</button>
-              <button class="btn btn-primary" data-toggle="collapse" data-target="#multiCollapseExample3" data-parent="#myGroup">Prochains matchs</button>
+              <button class="btn btn-primary" data-toggle="collapse" data-target="#multiCollapseExample3" data-parent="#myGroup">Les matchs de poule</button>
              </div>
 
       <div class="accordion-group">
@@ -155,14 +181,25 @@
                 <table class="table table-sm">
                    <tbody>
                       <tr>
-                        <td><small class="text-muted"> 16 juin 2018 Groupe C</small></td>
-                        <td><small class="text-muted"> 21 juin 2018 Groupe C</small></td>
-                        <td><small class="text-muted"> 26 juin 2018 Groupe C</small></td>
+                        <% for(var i = 0; i<countryGames.length ; i++){ %>
+                        <td><small class="text-muted"> <%var date = new Date(countryGames[i].date);%> <%= date.getDate() %> juin 2018 Groupe <%= countryGames[i].group%></small></td>
+                        <%} %>
                       </tr>
                       <tr>
-                          <td><strong>FRANCE - AUSTRALIE</strong><p>12:00</p></td>
-                          <td><strong>FRANCE - PEROU</strong><p>17:00</p></td>
-                          <td><strong>DANEMARK - FRANCE</strong><p>16:00</p></td>
+                          <% for(var i = 0; i<countryGames.length ; i++){ 
+                            var homeTeam = teams.teams[countryGames[i].homeTeamId];
+                            var awayTeam = teams.teams[countryGames[i].awayTeamId];%>
+                            <td>
+                              <strong><%= homeTeam.name %> - <%= awayTeam.name %></strong>
+                              <p>
+                                  <% if(countryGames[i].result.goalsHomeTeam == null) { %>
+                                    <%= date.getHours() %> : 00
+                                  <% }else{ %>
+                                    <%= countryGames[i].result.goalsHomeTeam %> - <%= countryGames[i].result.goalsAwayTeam %>
+                                  <% } %>
+                              </p>
+                            </td>
+                          <%} %>
                           </tr>
                      </tbody>
                   </table>

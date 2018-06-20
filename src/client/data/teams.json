@@ -2,7 +2,7 @@
     "teams":[
        {
           "name":"Allemagne",
-          "urlName" : "allemagne" , "img":"allemagne.jpg",
+          "englishName" : "Germany", "urlName" : "allemagne" , "img":"allemagne.jpg",
           "alpha":"de",
           "teamId":0,
           "fifaRanking":"1",
@@ -53,7 +53,7 @@
        },
        {
           "name":"Angleterre",
-          "urlName" : "angleterre" , "img":"angleterre.jpg",
+          "englishName" : "England", "urlName" : "angleterre" , "img":"angleterre.jpg",
           "alpha":"gb",
           "teamId":1,
           "fifaRanking":"12",
@@ -104,7 +104,7 @@
        },
        {
           "name":"Arabie Saoudite",
-          "urlName" : "arabie-saoudite" , "img":"arabie-saoudite.jpg",
+          "englishName" : "Saudi Arabia", "urlName" : "arabie-saoudite" , "img":"arabie-saoudite.jpg",
           "alpha":"sa",
           "teamId":2,
           "fifaRanking":"67",
@@ -155,7 +155,7 @@
        },
        {
           "name":"Argentine",
-          "urlName" : "argentine" , "img":"argentine.jpg",
+          "englishName" : "Argentina", "urlName" : "argentine" , "img":"argentine.jpg",
           "alpha":"ar",
           "teamId":3,
           "fifaRanking":"5",
@@ -206,7 +206,7 @@
        },
        {
           "name":"Australie",
-          "urlName" : "australie" , "img":"australie.jpg",
+          "englishName" : "Australia", "urlName" : "australie" , "img":"australie.jpg",
           "alpha":"au",
           "teamId":4,
           "fifaRanking":"36",
@@ -256,7 +256,7 @@
        },
        {
           "name":"Belgique",
-          "urlName" : "belgique" , "img":"belgique.jpg",
+          "englishName" : "Belgium", "urlName" : "belgique" , "img":"belgique.jpg",
           "alpha":"be",
           "teamId":5,
           "fifaRanking":"3",
@@ -307,7 +307,7 @@
        },
        {
           "name":"Brésil",
-          "urlName" : "bresil" , "img":"bresil.jpg",
+          "englishName" : "Brazil", "urlName" : "bresil" , "img":"bresil.jpg",
           "alpha":"br",
           "teamId":6,
           "fifaRanking":"2",
@@ -358,7 +358,7 @@
        },
        {
           "name":"Colombie",
-          "urlName" : "colombie" , "img":"colombie.jpg",
+          "englishName" : "Colombia", "urlName" : "colombie" , "img":"colombie.jpg",
           "alpha":"co",
           "teamId":7,
           "fifaRanking":"16",
@@ -409,7 +409,7 @@
        },
        {
           "name":"Costa Rica",
-          "urlName" : "costa-rica" , "img":"costa-rica.jpg",
+          "englishName" : "Costa Rica", "urlName" : "costa-rica" , "img":"costa-rica.jpg",
           "alpha":"cr",
           "teamId":8,
           "fifaRanking":"23",
@@ -460,7 +460,7 @@
        },
        {
           "name":"Croatie",
-          "urlName" : "croatie" , "img":"croatie.jpg",
+          "englishName" : "Croatia", "urlName" : "croatie" , "img":"croatie.jpg",
           "alpha":"hr",
           "teamId":9,
           "fifaRanking":"20",
@@ -511,7 +511,7 @@
        },
        {
           "name":"Danemark",
-          "urlName" : "danemark" , "img":"danemark.jpg",
+          "englishName" : "Denmark", "urlName" : "danemark" , "img":"danemark.jpg",
           "alpha":"dk",
           "teamId":10,
           "fifaRanking":"12",
@@ -562,7 +562,7 @@
        },
        {
           "name":"Egypte",
-          "urlName" : "egypte" , "img":"egypte.jpg",
+          "englishName" : "Egypt", "urlName" : "egypte" , "img":"egypte.jpg",
           "alpha":"eg",
           "teamId":11,
           "fifaRanking":"45",
@@ -617,7 +617,7 @@
        },
        {
           "name":"Espagne",
-          "urlName" : "espagne" , "img":"espagne.jpg",
+          "englishName" : "Spain", "urlName" : "espagne" , "img":"espagne.jpg",
           "alpha":"es",
           "teamId":12,
           "fifaRanking":"10",
@@ -670,7 +670,7 @@
        },
        {
           "name":"France",
-          "urlName" : "france" , "img":"france.jpg",
+          "englishName" : "France", "urlName" : "france" , "img":"france.jpg",
           "alpha":"fr",
           "teamId":13,
           "fifaRanking":"7",
@@ -721,7 +721,7 @@
        },
        {
           "name":"Islande",
-          "urlName" : "islande" , "img":"islande.jpg",
+          "englishName" : "Iceland", "urlName" : "islande" , "img":"islande.jpg",
           "alpha":"is",
           "teamId":14,
           "fifaRanking":"22",
@@ -776,7 +776,7 @@
        },
        {
           "name":"Japon",
-          "urlName" : "japon" , "img":"japon.jpg",
+          "englishName" : "Japan", "urlName" : "japon" , "img":"japon.jpg",
           "alpha":"jp",
           "teamId":15,
           "fifaRanking":"61",
@@ -829,7 +829,7 @@
        },
        {
           "name":"Maroc",
-          "urlName" : "maroc" , "img":"maroc.jpg",
+          "englishName" : "Morocco", "urlName" : "maroc" , "img":"maroc.jpg",
           "alpha":"ma",
           "teamId":16,
           "fifaRanking":"41",
@@ -881,7 +881,7 @@
        },
        {
           "name":"Mexique",
-          "urlName" : "mexique" , "img":"mexique.jpg",
+          "englishName" : "Mexico", "urlName" : "mexique" , "img":"mexique.jpg",
           "alpha":"mx",
           "teamId":17,
           "fifaRanking":"15",
@@ -934,7 +934,7 @@
        },
        {
           "name":"Nigeria",
-          "urlName" : "nigeria" , "img":"nigeria.jpg",
+          "englishName" : "Nigeria", "urlName" : "nigeria" , "img":"nigeria.jpg",
           "alpha":"ng",
           "teamId":18,
           "fifaRanking":"48",
@@ -987,7 +987,7 @@
        },
        {
           "name":"Panama",
-          "urlName" : "panama" , "img":"panama.jpg",
+          "englishName" : "Panama", "urlName" : "panama" , "img":"panama.jpg",
           "alpha":"pa",
           "teamId":19,
           "fifaRanking":"55",
@@ -1038,7 +1038,7 @@
        },
        {
           "name":"Pérou",
-          "urlName" : "perou" , "img":"perou.jpg",
+          "englishName" : "Peru", "urlName" : "perou" , "img":"perou.jpg",
           "alpha":"pe",
           "teamId":20,
           "fifaRanking":"11",
@@ -1092,7 +1092,7 @@
        },
        {
           "name":"Pologne",
-          "urlName" : "pologne" , "img":"pologne.jpg",
+          "englishName" : "Poland", "urlName" : "pologne" , "img":"pologne.jpg",
           "alpha":"pl",
           "teamId":21,
           "fifaRanking":"8",
@@ -1147,7 +1147,7 @@
        },
        {
           "name":"Portugal",
-          "urlName" : "portugal" , "img":"portugal.jpg",
+          "englishName" : "Portugal", "urlName" : "portugal" , "img":"portugal.jpg",
           "alpha":"pt",
           "teamId":22,
           "fifaRanking":"4",
@@ -1197,7 +1197,7 @@
        },
        {
           "name":"République de Corée",
-          "urlName" : "republique-de-coree" , "img":"republique-de-coree.jpg",
+          "englishName" : "Korea Republic", "urlName" : "republique-de-coree" , "img":"republique-de-coree.jpg",
           "alpha":"kr",
           "teamId":23,
           "fifaRanking":"61",
@@ -1248,7 +1248,7 @@
        },
        {
           "name":"RI Iran",
-          "urlName" : "ri-iran" , "img":"ri-iran.jpg",
+          "englishName" : "Iran", "urlName" : "ri-iran" , "img":"ri-iran.jpg",
           "alpha":"ir",
           "teamId":24,
           "fifaRanking":"37",
@@ -1299,7 +1299,7 @@
        },
        {
           "name":"Russie",
-          "urlName" : "russie" , "img":"russie.jpg",
+          "englishName" : "Russia", "urlName" : "russie" , "img":"russie.jpg",
           "alpha":"ru",
           "teamId":25,
           "fifaRanking":"70",
@@ -1350,7 +1350,7 @@
        },
        {
           "name":"Sénégal",
-          "urlName" : "senegal" , "img":"senegal.jpg",
+          "englishName" : "Senegal", "urlName" : "senegal" , "img":"senegal.jpg",
           "alpha":"sn",
           "teamId":26,
           "fifaRanking":"27",
@@ -1401,7 +1401,7 @@
        },
        {
           "name":"Serbie",
-          "urlName" : "serbie" , "img":"serbie.jpg",
+          "englishName" : "Serbia", "urlName" : "serbie" , "img":"serbie.jpg",
           "alpha":"rs",
           "teamId":27,
           "fifaRanking":"34",
@@ -1452,7 +1452,7 @@
        },
        {
           "name":"Suède",
-          "urlName" : "suede" , "img":"suede.jpg",
+          "englishName" : "Sweden", "urlName" : "suede" , "img":"suede.jpg",
           "alpha":"se",
           "teamId":28,
           "fifaRanking":"24",
@@ -1503,7 +1503,7 @@
        },
        {
           "name":"Suisse",
-          "urlName" : "suisse" , "img":"suisse.jpg",
+          "englishName" : "Switzerland", "urlName" : "suisse" , "img":"suisse.jpg",
           "alpha":"ch",
           "teamId":29,
           "fifaRanking":"6",
@@ -1554,7 +1554,7 @@
        },
        {
           "name":"Tunisie",
-          "urlName" : "tunisie" , "img":"tunisie.jpg",
+          "englishName" : "Tunisia", "urlName" : "tunisie" , "img":"tunisie.jpg",
           "alpha":"tn",
           "teamId":30,
           "fifaRanking":"21",
@@ -1605,7 +1605,7 @@
        },
        {
           "name":"Uruguay",
-          "urlName" : "uruguay" , "img":"uruguay.jpg",
+          "englishName" : "Uruguay", "urlName" : "uruguay" , "img":"uruguay.jpg",
           "alpha":"uy",
           "teamId":31,
           "fifaRanking":"14",
